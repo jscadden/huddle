@@ -5,7 +5,7 @@
 		var opts = $.extend({}, $.fn.huddle.defaults, options);		
 		
 		setupAndStartProcessing();
-		drawRings();
+		drawGenerations();
 		calculateWeights(getRootNodeElement());
 		positionAndDrawNodes();
 		
@@ -22,13 +22,13 @@
 			if (rootNodeData) {
 				rootNodeData.data("x", 0.0);
 				rootNodeData.data("y", 0.0);
-				rootNodeData.data("thetaA", 0.0 * Math.PI);
-				rootNodeData.data("thetaB", -2 * Math.PI);
+				rootNodeData.data("thetaStart", 0.0 * Math.PI); 
+				rootNodeData.data("thetaEnd", -2 * Math.PI);  
 				rootNodeData.data("generation", 0);
 			}
 		};
 		
-		function drawRings() {
+		function drawGenerations() {
 			var generations = getNumberOfGenerations();
 			pjs.strokeWeight(2);
 			pjs.stroke(0,156,255);
@@ -124,8 +124,8 @@
 		
 		function positionChildNodes(nodeParentElement) {
 			var nodeParentData = getNodeData(nodeParentElement);
-			var factor  = (nodeParentData.data("thetaB") - nodeParentData.data("thetaA")) / (nodeParentData.data("weight") - nodeParentData.data("indWeight"));
-			var thetaA  = nodeParentData.data("thetaA");
+			var factor  = (nodeParentData.data("thetaEnd") - nodeParentData.data("thetaStart")) / (nodeParentData.data("weight") - nodeParentData.data("indWeight"));
+			var thetaStart  = nodeParentData.data("thetaStart");
 			
 			var childrenList = nodeParentElement.children("ol");
 			if (childrenList) {
@@ -133,15 +133,15 @@
 					var $childElement = $(childElement);
 					var childData = getNodeData($childElement);
 					var deltaTheta = factor * childData.data("weight");
-					childData.data("thetaA", thetaA);
-					childData.data("thetaB", thetaA + deltaTheta);
-					var x = ($childElement.parent().data("generation")) * opts.ringGap * Math.cos(thetaA + deltaTheta/2);
-					var y = ($childElement.parent().data("generation")) * opts.ringGap * Math.sin(thetaA + deltaTheta/2);
+					childData.data("thetaStart", thetaStart);
+					childData.data("thetaEnd", thetaStart + deltaTheta);
+					var x = ($childElement.parent().data("generation")) * opts.ringGap * Math.cos(thetaStart + deltaTheta/2);
+					var y = ($childElement.parent().data("generation")) * opts.ringGap * Math.sin(thetaStart + deltaTheta/2);
 					childData.data("x", x);
 					childData.data("y", y);
 
 					positionChildNodes($childElement);
-					thetaA = childData.data("thetaB");
+					thetaStart = childData.data("thetaEnd");
 				});
 			}			
 		};
