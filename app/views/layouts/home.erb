@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Xambini</title>
+    <%= yield :styles %>
+	<title>Xambini</title>
+	<script type="text/javascript" src="javascripts/processing-0.6.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.huddle.js"></script>
+	<script type="text/javascript" src="javascripts/init.js"></script>
+	
+	<%= yield :scripts %>
+  </head>
+  <body id='main'>
+	<div id="bodyWrapper">
+		<%= @content_for_layout %>
+	</div>
+  </body>
+</html>

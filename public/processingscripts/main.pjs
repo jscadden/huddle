@@ -1,0 +1,15 @@
+int height = 480;
+int width = 640;
+int ringGap = 50;
+
+void setup() {
+  	size(width,height);
+  	frameRate(0);
+  	strokeWeight(2);
+	noLoop();
+}
+
+void draw() {
+  	background(50);
+  	noFill();
+}
