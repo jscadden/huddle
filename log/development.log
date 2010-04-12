@@ -1298,3 +1298,3706 @@ Processing HomeController#index (for 127.0.0.1 at 2010-03-26 17:34:21) [GET]
 Rendering template within layouts/home
 Rendering home/index
 Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-26 23:40:56) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 10ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-26 23:41:27) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 10:09:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 36ms (View: 34 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 10:13:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 10:14:51) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 10:15:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 11:17:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 11:17:37) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 11:18:19) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 11:18:32) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 11:19:35) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 11:21:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 11:22:08) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 11:24:03) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 11:26:48) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 12:21:23) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 12:21:23) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 12:21:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 12:22:33) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 12:24:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 12:25:15) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 12:28:01) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 12:28:19) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 12:30:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 12:37:20) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 14:38:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 14:39:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 14:40:02) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 14:41:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 14:49:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 14:49:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 14:50:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 14:50:37) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 14:51:09) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 14:57:01) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 14:57:32) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:29:07) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:31:05) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:31:43) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:31:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:32:33) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:32:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:34:35) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:38:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:39:34) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:42:46) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:44:21) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:44:21) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:44:32) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 15:44:52) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:09:37) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:09:56) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:14:14) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 11ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-29 16:14:14) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/processing-0.7.1.minjs" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:14:23) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-29 16:14:23) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/processing-0.7.1.minjs" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:15:38) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-29 16:15:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/processing-0.7.1.minjs" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:16:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:16:18) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:16:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 8ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:19:19) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:31:52) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:32:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:33:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:50:34) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:51:21) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:51:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:56:53) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 16:56:56) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 7ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:00:08) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:01:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:01:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:02:05) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:02:27) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:11:34) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:12:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:12:27) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:13:08) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:13:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:15:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:16:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:16:03) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:16:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:16:36) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:17:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:17:43) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:18:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:22:34) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:54:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:56:14) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:57:22) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 17:57:56) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 18:20:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 18:20:27) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-29 19:14:19) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 12ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:01:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 76ms (View: 75 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:06:28) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:06:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 13ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:07:34) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 8ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:07:36) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:09:15) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 16ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:11:05) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:15:19) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:15:59) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:16:13) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:16:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:22:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:23:07) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:23:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:23:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:31:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:32:13) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 16ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:32:58) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 64ms (View: 50 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:33:09) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 51ms (View: 49 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:34:09) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:34:42) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:35:51) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:36:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:40:14) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:40:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:41:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:42:16) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:44:15) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 8ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 16:47:13) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 21ms (View: 20 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:00:46) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:04:32) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:06:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:07:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 23ms (View: 22 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:08:05) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:10:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:10:43) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:13:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:13:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:14:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 13ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:14:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:14:51) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:16:18) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:16:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:16:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:17:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 40ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:17:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:18:15) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:18:27) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:20:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:22:07) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:22:45) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:22:47) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:22:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:23:14) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:30:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:31:08) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:31:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:32:47) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:33:05) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:34:02) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:34:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:34:22) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:34:36) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:37:16) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 8ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:37:26) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:39:17) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:43:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:52:27) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:52:37) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:53:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:53:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:56:42) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:57:30) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:58:18) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 13ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:59:35) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 17:59:35) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:00:01) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:06:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:18:30) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:18:42) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:38:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:38:38) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:53:16) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 23ms (View: 22 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:55:07) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:55:38) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:55:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:56:13) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:57:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:57:32) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 27ms (View: 26 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:58:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 18:59:58) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 19:00:30) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 19:01:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 19:01:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 10ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 19:02:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 19:02:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 39ms (View: 37 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-30 19:02:33) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 11ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 14:12:18) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 73ms (View: 71 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:02:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 16ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:05:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:06:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:06:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:08:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:09:47) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:10:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:11:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:13:46) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:22:02) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:22:16) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:22:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:24:16) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:24:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:25:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:25:47) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:26:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:26:15) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:26:32) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:26:46) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:26:56) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:29:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:29:58) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:30:03) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:35:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:36:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:37:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:38:22) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:40:03) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:40:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:40:53) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:42:17) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:43:59) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:45:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:46:19) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:46:44) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:46:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:46:58) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:47:34) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:47:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 15:48:48) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 81ms (View: 80 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:06:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:06:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:07:47) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:08:28) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:08:46) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:09:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:09:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 14ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:10:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:16:17) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:16:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:22:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:22:58) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 65ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:23:05) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:23:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:23:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:25:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:26:37) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:29:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:31:22) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:35:21) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:37:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:40:46) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:42:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 16ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:43:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:43:55) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:44:10) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:45:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:47:42) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:48:27) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:48:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:49:20) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:49:38) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:51:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 16:51:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 17:09:37) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 17:21:07) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 17:21:14) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 17:21:20) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 49ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 17:21:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 17:23:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 17:23:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 17:24:43) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 17:27:03) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 10ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-31 17:28:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 10:52:20) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:02:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:03:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:04:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:15:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:16:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:24:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:26:15) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 19ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:44:20) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:44:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:52:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:54:13) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 14ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 11:56:13) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 12:27:32) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 12:28:42) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 12:30:23) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 12:47:30) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 12:47:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 12:48:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 12:53:13) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 15:52:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 15:52:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 15:53:16) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 15:53:42) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 15:56:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 15:56:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 15:58:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 16:48:14) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 16:48:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 16:52:26) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 16:53:13) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:23:49) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 10ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:24:21) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:25:05) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:26:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:26:42) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:28:09) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:28:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:30:35) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:30:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:31:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:31:45) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:32:05) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:33:45) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:33:58) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:34:03) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:34:10) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 17:36:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:05:49) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:05:51) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:05:58) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:07:01) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:08:15) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:09:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:09:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:09:33) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:10:00) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:15:32) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:16:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:17:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:18:10) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:27:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:28:11) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:48:56) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 11ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:49:37) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:49:46) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:53:09) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:56:28) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:56:30) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:56:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:56:34) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 18:57:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:14:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:15:28) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:25:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:25:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 49ms (View: 48 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:26:19) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:26:46) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:28:10) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:28:21) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:28:38) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:30:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:33:55) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:36:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:38:01) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:38:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:39:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:41:10) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:49:09) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 13ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:50:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:50:39) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:54:30) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:54:35) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:55:10) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:55:38) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:55:53) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:56:45) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 19:57:48) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 10ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 20:00:51) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 20:03:52) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 20:07:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 8ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 20:10:28) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 20:13:35) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 20:13:49) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 20:14:12) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 20:22:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 20:24:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 20:32:26) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-01 22:15:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 07:25:35) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 09:34:51) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 09:35:24) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 192.168.7.77 at 2010-04-02 09:36:26) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://192.168.7.172/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 10:49:55) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 35ms (View: 33 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:06:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 29ms (View: 27 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:10:23) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 43ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:10:49) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:11:28) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:12:21) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:12:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:32:37) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:34:15) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:36:09) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:37:23) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:37:50) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:39:15) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:47:36) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:50:03) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:50:23) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:50:36) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:51:03) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:51:10) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:51:30) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:55:43) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:55:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:55:55) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:56:28) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:56:34) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:56:45) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 15:57:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 16:03:42) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 16:03:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 16:04:03) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 16:05:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 16:05:33) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 16:09:26) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 16:10:23) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 16:56:20) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 12ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 17:06:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 11ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 17:06:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 17:07:09) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 17:07:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-02 17:08:48) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 09:48:25) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 20ms (View: 19 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 09:48:37) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 09:48:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 10:20:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 11:01:27) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 11:02:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 11:35:59) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:43:46) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:45:03) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:46:23) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:47:33) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 42ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:47:59) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:48:16) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:48:41) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:49:37) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:49:54) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:50:14) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:51:04) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:52:10) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 14:52:55) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-03 15:07:05) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-05 17:22:36) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 53ms (View: 52 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-05 17:23:28) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:05:36) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 66ms (View: 65 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:15:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 13ms (View: 12 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:16:17) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:16:52) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:19:53) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:20:29) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:21:45) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:23:09) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:25:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:27:34) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 5ms (View: 4 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:32:38) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-07 16:33:22) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 2ms (View: 1 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-09 14:46:19) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 66ms (View: 65 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 11:29:17) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 44ms (View: 43 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 12:27:36) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 11ms (View: 10 | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 13:34:40) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 17ms (View: 15 | 200 OK [http://huddle.local/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-12 13:34:45) [GET]
+
+ActionController::RoutingError (No route matches "/signin" with {:method=>:get}):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-12 13:35:10) [GET]
+Rendering sessions/new
+
+ActionView::TemplateError (undefined local variable or method `session_path' for #<ActionView::Base:0x102e102f0>) on line #3 of app/views/sessions/new.html.erb:
+1: <h1>Log In</h1>
+2: 
+3: <% form_tag session_path do -%>
+4: <p><%= label_tag 'login' %><br />
+5: <%= text_field_tag 'login', @login %></p>
+6: 
+
+    app/views/sessions/new.html.erb:3
+    passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+    passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+    passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+    passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+    passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+    passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+    passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+    passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+    passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+    passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+    passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+    passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+    passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (118.8ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.6ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100412194121)
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(40), "name" varchar(100) DEFAULT '', "email" varchar(100), "crypted_password" varchar(40), "salt" varchar(40), "created_at" datetime, "updated_at" datetime, "remember_token" varchar(40), "remember_token_expires_at" datetime, "activation_code" varchar(40), "activated_at" datetime) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE UNIQUE INDEX "index_users_on_login" ON "users" ("login")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100412194121')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_users_on_login')[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-12 14:04:08) [GET]
+Rendering sessions/new
+Completed in 54ms (View: 52, DB: 0) | 200 OK [http://huddle.local/login]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-12 14:04:17) [GET]
+Rendering users/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://huddle.local/signup]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 14:04:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://huddle.local/]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" = 'user') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@xambini.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "salt", "created_at", "activated_at", "crypted_password", "remember_token_expires_at", "updated_at", "activation_code", "remember_token", "login", "email") VALUES('', '45c44d6b098177e65c680c3b370ec2936e0f5ad0', '2010-04-12 20:20:01', NULL, '3ef4e8a35203ba6fbf02d13a210c039df8cf5a63', NULL, '2010-04-12 20:20:01', '8998829d7e1f7f8bd948cef195019624ac60b5a7', NULL, 'user', 'user@xambini.com')[0m
+Sent mail to user@xambini.com
+
+Date: Mon, 12 Apr 2010 14:20:01 -0600
+From: ADMINEMAIL
+To: user@xambini.com
+Subject: [YOURSITE] Please activate your new account
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Your account has been created.
+
+  Username: user
+  Password: password
+
+Visit this url to activate your account:
+
+  http://YOURSITE/activate/8998829d7e1f7f8bd948cef195019624ac60b5a7
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 14:21:06) [GET]
+
+NoMethodError (undefined method `require_user' for #<HomeController:0x102fed8e8>):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (36.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 14:27:15) [GET]
+
+NameError (undefined local variable or method `current_user' for #<HomeController:0x102bf6460>):
+  app/controllers/application_controller.rb:12:in `require_user'
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (75.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 14:27:49) [GET]
+
+NameError (uninitialized constant ApplicationController::UserSession):
+  app/controllers/application_controller.rb:15:in `current_user_session'
+  app/controllers/application_controller.rb:20:in `current_user'
+  app/controllers/application_controller.rb:24:in `require_user'
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (31.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100412194121)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100412194121'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100412194121)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "crypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "persistence_token" varchar(255) NOT NULL, "single_access_token" varchar(255) NOT NULL, "perishable_token" varchar(255) NOT NULL, "login_count" integer DEFAULT 0 NOT NULL, "failed_login_count" integer DEFAULT 0 NOT NULL, "last_request_at" datetime, "current_login_at" datetime, "last_login_at" datetime, "current_login_ip" varchar(255), "last_login_ip" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100412194121')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 15:28:50) [GET]
+
+NameError (uninitialized constant ApplicationController::UserSession):
+  app/controllers/application_controller.rb:15:in `current_user_session'
+  app/controllers/application_controller.rb:20:in `current_user'
+  app/controllers/application_controller.rb:24:in `require_user'
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (46.0ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 15:28:53) [GET]
+
+NameError (uninitialized constant ApplicationController::UserSession):
+  app/controllers/application_controller.rb:15:in `current_user_session'
+  app/controllers/application_controller.rb:20:in `current_user'
+  app/controllers/application_controller.rb:24:in `require_user'
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (32.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 15:29:34) [GET]
+
+NameError (uninitialized constant ApplicationController::UserSession):
+  app/controllers/application_controller.rb:15:in `current_user_session'
+  app/controllers/application_controller.rb:20:in `current_user'
+  app/controllers/application_controller.rb:24:in `require_user'
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (31.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 15:32:16) [GET]
+
+NameError (undefined local variable or method `store_location' for #<HomeController:0x1024fbc28>):
+  app/controllers/application_controller.rb:25:in `require_user'
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (79.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 15:49:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/home
+Rendering home/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://huddle.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 15:49:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+
+NameError (undefined local variable or method `store_location' for #<HomeController:0x101111aa0>):
+  app/controllers/application_controller.rb:26:in `require_user'
+  haml (2.2.23) [v] rails/./lib/sass/plugin/rails.rb:20:in `process'
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (50.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 15:51:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+
+NameError (undefined local variable or method `new_user_sessions_url' for #<HomeController:0x1041f9f78>):
+  app/controllers/application_controller.rb:28:in `require_user'
+  haml (2.2.23) [v] rails/./lib/sass/plugin/rails.rb:20:in `process'
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (96.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 15:52:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://huddle.local/user_sessions/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 11ms (DB: 0) | 302 Found [http://huddle.local/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-04-12 15:52:58) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 60ms (View: 49, DB: 0) | 200 OK [http://huddle.local/user_sessions/new]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-04-12 15:53:06) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://huddle.local/user_sessions/new]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@xambini.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'user') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '09dc1480607e5293be9fdaf6eaf5d7bf0bb8ee7e56ba0c00500cd61b88561a1d562e32c151c67dcf422cc9a5162e6637bc18976f56188b5fb55e593476aca476') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."single_access_token" = 'kxHHNh89wRCzr7VqE3iJ') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("single_access_token", "last_request_at", "created_at", "crypted_password", "perishable_token", "updated_at", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "login_count", "last_login_ip", "login", "last_login_at", "email") VALUES('kxHHNh89wRCzr7VqE3iJ', NULL, '2010-04-12 21:53:20', '0204c2f529f9775cb8c7c88e7b92bd57ae80b576c9c1176ede1111ad7810e16fcb4e3d667a7cf8526e7043bc08e4896ebaf3bf65812948612a3e15ca2fc14522', 'miEbZpFPd2gHMmDCXZwe', '2010-04-12 21:53:20', 0, NULL, 'KkimCmRs3Nw-tUdQmeVL', NULL, '09dc1480607e5293be9fdaf6eaf5d7bf0bb8ee7e56ba0c00500cd61b88561a1d562e32c151c67dcf422cc9a5162e6637bc18976f56188b5fb55e593476aca476', 0, NULL, 'user', NULL, 'user@xambini.com')[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-04-12 15:53:26) [POST]
+  Parameters: {"commit"=>"Log in", "user_session"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "login"=>"user"}, "action"=>"create", "authenticity_token"=>"tTo1/iBWUIaU9uyfYWpzRj2Q70gp8/5GXua2vP7Wz7M=", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'user') LIMIT 1[0m
+  [4;35;1mUser Update (0.6ms)[0m   [0mUPDATE "users" SET "login_count" = 1, "current_login_ip" = '127.0.0.1', "updated_at" = '2010-04-12 21:53:26', "perishable_token" = 'I7Nq9RBt8W575NgUu9Sd', "last_request_at" = '2010-04-12 21:53:26', "current_login_at" = '2010-04-12 21:53:26' WHERE "id" = 1[0m
+
+NameError (undefined local variable or method `qfds_path' for #<UserSessionsController:0x10407dc80>):
+  app/controllers/user_sessions_controller.rb:13:in `create'
+  haml (2.2.23) [v] rails/./lib/sass/plugin/rails.rb:20:in `process'
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (32.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-04-12 15:54:38) [POST]
+  Parameters: {"commit"=>"Log in", "user_session"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "login"=>"user"}, "action"=>"create", "authenticity_token"=>"tTo1/iBWUIaU9uyfYWpzRj2Q70gp8/5GXua2vP7Wz7M=", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2010-04-12 21:54:38', "perishable_token" = '7H7ezW5DwUBIoh78Rm_q', "last_request_at" = '2010-04-12 21:54:38' WHERE "id" = 1[0m
+
+NameError (undefined local variable or method `account_url' for #<UserSessionsController:0x103efce88>):
+  app/controllers/application_controller.rb:37:in `require_no_user'
+  haml (2.2.23) [v] rails/./lib/sass/plugin/rails.rb:20:in `process'
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (33.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-04-12 15:56:22) [POST]
+  Parameters: {"commit"=>"Log in", "user_session"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "login"=>"user"}, "action"=>"create", "authenticity_token"=>"tTo1/iBWUIaU9uyfYWpzRj2Q70gp8/5GXua2vP7Wz7M=", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2010-04-12 21:56:22', "perishable_token" = 'GoO69z5ZI3z8UugcqjFg', "last_request_at" = '2010-04-12 21:56:22' WHERE "id" = 1[0m
+Redirected to http://huddle.local/account
+Filter chain halted as [:require_no_user] rendered_or_redirected.
+Completed in 19ms (DB: 1) | 302 Found [http://huddle.local/user_sessions]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-04-12 15:56:22) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2010-04-12 21:56:22', "perishable_token" = 'LchedCpyneq4ns0_IUZ4', "last_request_at" = '2010-04-12 21:56:22' WHERE "id" = 1[0m
+Rendering users/show
+Completed in 129ms (View: 33, DB: 1) | 200 OK [http://huddle.local/account]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-04-12 15:56:41) [GET]
+  Parameters: {"action"=>"edit", "controller"=>"users"}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2010-04-12 21:56:41', "perishable_token" = 'uQG5dTIFYG6mcZcvryB8', "last_request_at" = '2010-04-12 21:56:41' WHERE "id" = 1[0m
+Rendering users/edit
+Rendered users/_form (16.8ms)
+Completed in 55ms (View: 28, DB: 1) | 200 OK [http://huddle.local/account/edit]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-04-12 15:56:45) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE "users" SET "updated_at" = '2010-04-12 21:56:45', "perishable_token" = 'fxOIDv7z_GfjMLyY4idU', "last_request_at" = '2010-04-12 21:56:45' WHERE "id" = 1[0m
+Rendering users/show
+Completed in 21ms (View: 1, DB: 1) | 200 OK [http://huddle.local/account]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 15:56:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2010-04-12 21:56:50', "perishable_token" = '2RLslmcFyosRqfAxb024', "last_request_at" = '2010-04-12 21:56:50' WHERE "id" = 1[0m
+Rendering template within layouts/home
+Rendering home/index
+Completed in 24ms (View: 1, DB: 1) | 200 OK [http://huddle.local/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-12 15:56:56) [GET]
+
+ActionController::RoutingError (No route matches "/signout" with {:method=>:get}):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#destroy (for 127.0.0.1 at 2010-04-12 15:57:01) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+
+NameError (uninitialized constant SessionsController):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (27.3ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#destroy (for 127.0.0.1 at 2010-04-12 15:57:51) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+
+NameError (uninitialized constant SessionsController):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (27.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#destroy (for 127.0.0.1 at 2010-04-12 15:57:54) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+
+NameError (uninitialized constant SessionsController):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (102.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2010-04-12 16:03:05) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2010-04-12 22:03:05', "perishable_token" = 'xPwHVe9Ur9rp-BK4tf2S', "last_request_at" = '2010-04-12 22:03:05' WHERE "id" = 1[0m
+Redirected to http://huddle.local/user_sessions
+Completed in 20ms (DB: 1) | 302 Found [http://huddle.local/logout]
+
+
+Processing UserSessionsController#show (for 127.0.0.1 at 2010-04-12 16:03:05) [GET]
+  Parameters: {"action"=>"show", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, and new):
+  haml (2.2.23) [v] rails/./lib/sass/plugin/rails.rb:20:in `process'
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 16:04:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://huddle.local/user_sessions/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 10ms (DB: 0) | 302 Found [http://huddle.local/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-04-12 16:04:00) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 14ms (View: 3, DB: 0) | 200 OK [http://huddle.local/user_sessions/new]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-04-12 16:04:06) [POST]
+  Parameters: {"commit"=>"Log in", "user_session"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "login"=>"user"}, "action"=>"create", "authenticity_token"=>"tTo1/iBWUIaU9uyfYWpzRj2Q70gp8/5GXua2vP7Wz7M=", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".login) = 'user') LIMIT 1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "login_count" = 2, "updated_at" = '2010-04-12 22:04:06', "perishable_token" = 'zHgWmBRooZCnPFT5LuIE', "last_request_at" = '2010-04-12 22:04:06', "last_login_at" = '2010-04-12 21:53:26', "last_login_ip" = '127.0.0.1', "current_login_at" = '2010-04-12 22:04:06' WHERE "id" = 1[0m
+Redirected to http://huddle.local/
+Completed in 22ms (DB: 1) | 302 Found [http://huddle.local/user_sessions]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 16:04:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2010-04-12 22:04:07', "perishable_token" = 'jJQ_gLL5DvBi2AHmE3Up', "last_request_at" = '2010-04-12 22:04:06' WHERE "id" = 1[0m
+Rendering template within layouts/home
+Rendering home/index
+Completed in 21ms (View: 1, DB: 1) | 200 OK [http://huddle.local/]
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2010-04-12 16:04:11) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2010-04-12 22:04:11', "perishable_token" = 'vCTplgFeBD6tK5VAQJ2B', "last_request_at" = '2010-04-12 22:04:11' WHERE "id" = 1[0m
+Redirected to http://huddle.local/login
+Completed in 22ms (DB: 1) | 302 Found [http://huddle.local/logout]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-04-12 16:04:11) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://huddle.local/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-12 16:04:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://huddle.local/user_sessions/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 10ms (DB: 0) | 302 Found [http://huddle.local/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-04-12 16:04:22) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://huddle.local/user_sessions/new]

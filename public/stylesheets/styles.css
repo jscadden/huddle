@@ -1,0 +1,84 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #323232;
+	overflow: hidden;
+	cursor:url('http://maps.google.com/mapfiles/openhand.cur}');
+}
+
+#body_wrapper {
+	text-align: center;
+}
+
+#container {
+	background-color: #323232;
+	position: relative;
+	
+	height: 600px;
+	width:1000px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: 1px solid black;
+}
+
+#nodes {
+	position: absolute;
+	top: 2px;
+	width: 400px;
+	border: 2px solid black;
+	background-color: white;
+	overflow: auto;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#node_details {
+	position: absolute;
+	left: 1px;
+	width: 375px;
+	height: 225px;
+	border: 2px solid black;
+	background-color: white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#slider_wrapper {
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	height: 200px;
+}
+
+#slider_wrapper .fd-slider-vertical
+        {
+        float:left;
+        height:150px;
+        margin-right:4px;
+        }
+#slider_wrapper .fd-slider-vertical .fd-slider-inner
+        {
+        background:#202020;
+        border-color:#1c1c1c;
+		opacity: 0.2;
+        }
+#slider_wrapper .fd-slider-vertical .fd-slider-bar
+        {
+        background:#111;
+        border-color:#111 #2c2c2c #2c2c2c #111;
+        }
+#slider_wrapper code
+        {
+        color:#ccc;
+        }
+#slider_wrapper .fd-slider:focus .fd-slider-inner,
+#slider_wrapper .fd-slider-vertical:focus .fd-slider-inner,
+#slider_wrapper .focused .fd-slider-inner
+        {
+        background:#202020 !important;
+        border-color:#000 !important;
+        }
+
+#footer {
+	text-align: center;
+}

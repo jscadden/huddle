@@ -1,0 +1,21 @@
+%h1 Welcome
+
+- form_for(@user_session) do |f|
+  = f.error_messages
+
+  .field
+    = f.label(:login)
+    %br
+    = f.text_field(:login)
+
+  .field
+    = f.label(:password)
+    %br
+    = f.password_field(:password)
+
+  .field
+    = f.check_box(:remember_me)
+    = f.label(:remember_me)
+
+  .actions
+    = f.submit("Log in")
