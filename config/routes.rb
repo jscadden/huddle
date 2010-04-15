@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  
+  map.resources :comments
 
   # The priority is based upon order of creation: first created -> highest priority.
 
@@ -33,12 +33,14 @@ ActionController::Routing::Routes.draw do |map|
   #   end
 
   # You can have the root of your site routed with map.root -- just remember to delete public/index.html.
-  map.root :controller => "home"
+  map.root :controller => "trees"
   
   map.logout '/logout', :controller => 'user_sessions', :action => 'destroy'
   map.login '/login', :controller => 'user_sessions', :action => 'new'
   map.register '/register', :controller => 'users', :action => 'new'
   
+  map.resources :trees
+  map.resources :nodes
   map.resource :user_sessions
   map.resource :account, :controller => "users"
   map.resources :users

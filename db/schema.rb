@@ -9,7 +9,33 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100412194121) do
+ActiveRecord::Schema.define(:version => 20100415204419) do
+
+  create_table "comments", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "node_id"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "nodes", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "title"
+    t.string   "description"
+    t.string   "ancestry"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "nodes", ["ancestry"], :name => "index_nodes_on_ancestry"
+
+  create_table "trees", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "node_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "login",                              :null => false

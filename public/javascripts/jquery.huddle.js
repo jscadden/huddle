@@ -19,14 +19,14 @@
 		pjs.setup = setup;
 		pjs.draw = draw;
 		pjs.init();
+		$selectedNodeElement = getRootNodeElement();
+		populateNodeDetails($selectedNodeElement);
 		
 		$(window).resize(function() {
 			opts.width = $(window).width();
 			opts.height = $(window).height();
 			pjs.redraw();
-			$("#node_details").css('top', $(window).height() - $("#node_details").height()-7);
-			$("#nodes").css('left', $(window).width() - ($("#nodes").width()-6));
-			$("#nodes").height($(window).height()-8);
+			$("#nodes_wrapper").css('top', $(window).height());
 		});
 		
 		//$('body').mousewheel(function(event, delta) {
@@ -35,9 +35,7 @@
 		//});
 		
 		function setup() {
-			$("#node_details").css('top', $(window).height() - $("#node_details").height()-7).hide();
-			$("#nodes").css('left', $(window).width() - $("#nodes").width()-6);
-			$("#nodes").height($(window).height()-8);
+			$("#nodes_wrapper").css('top', $(window).height()).hide();
 			pjs.size(opts.width,opts.height);
 			pjs.frameRate(10);			
 			baseX = opts.width/2;
@@ -77,7 +75,7 @@
 				var nodeElement = findNode(xLocation, yLocation);
 				if (nodeElement) {
 					$selectedNodeElement = $(nodeElement);
-					populateNodeDetails(nodeElement);
+					populateNodeDetails($selectedNodeElement);
 				}
 			};
 			
@@ -134,24 +132,24 @@
 		
 		function calculateWeights(nodeElement) {
 			var nodeData = getNodeData(nodeElement);
-			var wt = 0.;
+			var weight = 0.;
 			
 			var generation = 0;
 			if (nodeElement.parents("ol").size() > 0) { 
 				generation = $(nodeElement.parents("ol")[0]).data("generation");
 			}
 
-			wt = 1.0/Math.pow((generation + 1) * opts.ringGap, 2);
-		    nodeData.data("indWeight", wt);
+			weight = 1.0/Math.pow((generation + 1) * opts.ringGap, 2);
+		    nodeData.data("indWeight", weight);
 
 			var childrenList = nodeElement.children("ol");
 			if (childrenList) {
 				childrenList.children().each(function(index, childElement) {
-					wt += calculateWeights($(childElement));
+					weight += calculateWeights($(childElement));
 				});
 			}
-			nodeData.data("weight", wt);
-			return wt;
+			nodeData.data("weight", weight);
+			return weight;
 		};
 		
 		function positionAndDrawNodes() {
@@ -312,7 +310,7 @@
 			scaleValue = scale;
 			translateX = xtrans;
 			translateY = ytrans;
-		}
+		};
 		
 		function findNode(x, y) {
 			var nodeFound = undefined;
@@ -325,16 +323,34 @@
 				}
 			});
 			return nodeFound;
-		}
+		};
 		
-		function populateNodeDetails(nodeElement) {
-			if ($('#node_details').is(':hidden')) {
-				$('#node_details').show("slide", {direction: "left"}, 500);
+		function populateNodeDetails($nodeElement) {
+			var $nodeData = getNodeData($nodeElement);
+			var $nodeDataCloned = $nodeData.clone();
+			$('#node_contents').hide().html("").append($nodeDataCloned).fadeIn(160);
+			var hieght = $(window).height() - 150;
+			if ($('#nodes_wrapper').is(':hidden')) {
+				$('#nodes_wrapper').stop().show().animate({top: hieght}, {queue:false, duration:160});
 			}
-			var nodeData = getNodeData($(nodeElement));
-			//$('#node_details').fadeIn(3000);
-			$('#node_details').text(nodeData.text());
-		}
+			if (!$nodeData.data("cached")) {
+				$.getJSON("/nodes/" + $nodeDataCloned.attr("id").replace("node_", ""), function(response) {
+					populateNodeDetailsWithResponse($nodeDataCloned, response.node);
+					populateNodeDetailsWithResponse($nodeData, response.node);  // cache the node details so that we don't have to request it again
+					$nodeData.data("cached", true);
+				})
+			}
+		};
+		
+		function populateNodeDetailsWithResponse($nodeDataCloned, responseNode) {
+			$('#nodes_wrapper').find('.reply a').attr("href", "/nodes/new?parent=" + responseNode.id);
+			$nodeDataCloned.children('.description').html(responseNode.description);
+			$nodeDataCloned.children('.author').html(responseNode.user.login);
+			var createDate = humane_date(responseNode.created_at);
+			$nodeDataCloned.children('.create_date').html(createDate);
+			$nodeDataCloned.children('.comments').text(responseNode.comment_count + " Comment(s)")
+			$nodedataCloned.children('.comments').children.hide();
+		};
 		
 		return this;
 	};	
