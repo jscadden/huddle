@@ -1,0 +1,6 @@
+%h1 My Huddles
+= link_to("Create new Huddle", new_tree_path)
+
+%ul
+  = list_of(@trees) do |tree|
+    = link_to(h(tree.node.title), tree)

@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Huddle</title>
+	<%= stylesheet_link_tag("styles.css") %>
+	<%= stylesheet_link_tag("node_styles.css") %>
+	<%= stylesheet_link_tag("slider.css") %>
+    <%= yield :styles %>
+	<%= javascript_include_tag("processing-0.7.1.js") %>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+	<%= javascript_include_tag("jquery.mousewheel.js") %>
+	<%= javascript_include_tag("jquery.huddle.js") %>
+	<%= javascript_include_tag("init.js") %>
+	<%= javascript_include_tag("slider.js") %>
+	<%= javascript_include_tag("humane.js") %>
+	<%= yield :scripts %>
+  </head>
+  <body id="main">
+	<%= @content_for_layout %>
+  </body>
+</html>

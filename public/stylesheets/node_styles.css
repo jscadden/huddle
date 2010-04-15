@@ -1,0 +1,26 @@
+.node {
+	color: white;
+}
+
+.title {
+	font-weight:bold; 
+	font:24pt "Lucida Grande", Arial, sans-serif; 
+	text-decoration: underline
+}
+
+.summary {
+	font:12pt "Lucida Grande", Arial, sans-serif; 
+	margin: 10px 10px 10px 25px;
+}
+
+.date_time {
+	
+}
+
+.author {
+	
+}
+
+.comments {
+	
+}

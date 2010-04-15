@@ -1,0 +1,16 @@
+<% title "Node" %>
+
+<p>
+  <strong>Title:</strong>
+  <%=h @node.title %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%=h @node.description %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_node_path(@node) %> |
+  <%= link_to "Destroy", @node, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", nodes_path %>
+</p>
