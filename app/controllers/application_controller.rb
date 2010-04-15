@@ -47,4 +47,12 @@ class ApplicationController < ActionController::Base
     redirect_to(session[:return_to] || default)
     session[:return_to] = nil
   end
+  
+  def set_current_tree(tree)
+    session["current_tree"] = tree
+  end
+  
+  def current_tree
+    session["current_tree"]  
+  end
 end

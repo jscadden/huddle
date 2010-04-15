@@ -7,6 +7,7 @@ class TreesController < ApplicationController
   
   def show
     @tree = Tree.find(params[:id])
+    set_current_tree(@tree)
   end
   
   def new

@@ -22,11 +22,11 @@ class NodesController < ApplicationController
   end
   
   def create
-    #parent_id = params[:node]["parent_id"]
     @node = Node.new(params[:node])
+    @node.user = current_user
     if @node.save
       flash[:notice] = "Successfully created node."
-      redirect_to @node
+      redirect_to tree_path(current_tree.id)
     else
       render :action => 'new'
     end
