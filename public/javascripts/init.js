@@ -39,17 +39,16 @@ $(document).ready(function() {
 		'width': 400,
 		'height': 400
 	});
-	
-	stomp.onmessageframe = function(frame) {
-		$.fancybox.close();
-		addNode(frame.body);
-	};
 });
 
-function addNode(nodeJsonString) {
+function stompOnMessageFrame(frame) {
+	$.fancybox.close();
 	var nodeJson = eval('(' + nodeJsonString + ')').node;
-	$parentNode = nodeJson.parent_id > 0 ? $('#nodes #node_' + nodeJson.parent_id) : $('#nodes div:first')
+	addNode(nodeJson);
+}
 
+function addNode(nodeJson) {
+	$parentNode = nodeJson.parent_id > 0 ? $('#nodes #node_' + nodeJson.parent_id) : $('#nodes div:first')
 	var $generation = $parentNode.siblings("ol");
 	if ($generation.length == 0) {
 		$generation = $('<ol/>');
