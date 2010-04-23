@@ -43,7 +43,7 @@ $(document).ready(function() {
 
 function stompOnMessageFrame(frame) {
 	$.fancybox.close();
-	var nodeJson = eval('(' + nodeJsonString + ')').node;
+	var nodeJson = eval('(' + frame.body + ')').node;
 	addNode(nodeJson);
 }
 
