@@ -1,6 +1,6 @@
 development: &development
     host: orbited.huddle.local
-    port: 8000
+    port: 80
     protocol: stomp
     stomp_host: orbited.huddle.local
     stomp_port: 61613
