@@ -1,4 +1,5 @@
 class TreesController < ApplicationController
+  layout "trees", :except => [:index] 
   before_filter :require_user
   
   def index

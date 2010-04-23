@@ -7,11 +7,11 @@ class NodesController < ApplicationController
     @node = Node.find(params[:id])
     respond_to do |format|
       format.html {
-        render :json => @node.to_json(:include => {:user => {:only => :login}}, :methods => :comment_count)
+        render :json => @node.to_json(:include => {:user => {:only => :login}}, :methods => [:comment_count, :parent_id])
       }
       format.js
       format.json {
-        render :json => @node.to_json(:include => {:user => {:only => :login}}, :methods => :comment_count)
+        render :json => @node.to_json(:include => {:user => {:only => :login}}, :methods => [:comment_count, :parent_id])
       }
     end
   end
@@ -26,7 +26,10 @@ class NodesController < ApplicationController
     @node.user = current_user
     if @node.save
       flash[:notice] = "Successfully created node."
-      redirect_to tree_path(current_tree.id)
+      node_json = @node.to_json(:include => {:user => {:only => :login}}, :methods => [:comment_count, :parent_id])
+      Orbited.send_data('huddle', node_json)
+      render :js => "parent.$.fancybox.close();"
+      #redirect_to tree_path(current_tree.id)
     else
       render :action => 'new'
     end
