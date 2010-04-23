@@ -18,6 +18,7 @@
 	<%= orbited_javascript %>
 	<%= stomp_connect("huddle", :js => "jquery") %>
 	<%= javascript_include_tag("init.js") %>
+	<script> document.domain = document.domain; </script>
 	<%= yield :scripts %>
   </head>
   <body id="main">
