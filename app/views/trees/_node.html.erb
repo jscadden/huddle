@@ -1,4 +1,4 @@
-<li><div id="node_<%= node.id %>" class="node">
+<li><div id="node_<%= node.id %>" class="node<%= ' viewed' if node.viewed_by_user(current_user) %>">
 		<div class="title"><%= node.title %></div>
 		<div class="description"></div>
 		<div class="author"></div>

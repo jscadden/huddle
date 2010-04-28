@@ -9,6 +9,7 @@ Nodes:
     <tr>
       <td><%=h node.title %></td>
       <td><%=h node.description %></td>
+	  <td><%=h node.viewed_by_user(current_user) %></td>
       <td><%= link_to "Show", node %></td>
       <td><%= link_to "Edit", edit_node_path(node) %></td>
       <td><%= link_to "Destroy", node, :confirm => 'Are you sure?', :method => :delete %></td>

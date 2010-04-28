@@ -67,6 +67,11 @@ body {
         border-color:#000 !important;
         }
 
+#new_node {
+	width: 250px;
+	height: 150px;
+}
+
 #footer {
 	text-align: center;
 }

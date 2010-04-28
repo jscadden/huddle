@@ -71,10 +71,7 @@
 			var yLocation = (y - baseY) / scale;
 			var nodeElement = findNode(xLocation, yLocation);
 			if (nodeElement) {
-				$selectedNodeElement = $(nodeElement);
-				if (opts.onNodeSelected) {
-					opts.onNodeSelected(getNodeData($selectedNodeElement));
-				}
+				selectNodePrivate($(nodeElement));
 			}
 		};
 		
@@ -85,10 +82,7 @@
 			$("#nodes_wrapper").css('top', $(window).height());
 		});
 		
-		$selectedNodeElement = getRootNodeElement();
-		if (opts.onNodeSelected) {
-			opts.onNodeSelected(getNodeData($selectedNodeElement));
-		}
+		selectNodePrivate(getRootNodeElement());
 	},
 	
 	setup = function() {
@@ -174,21 +168,39 @@
 		});
 	},
 	
-	drawNode = function(nodeData) {
+	drawNode = function($nodeData) {
 		if ($selectedNodeElement) {
 			var selectedNodeData = getNodeData($selectedNodeElement);
-		 	if (nodeData.attr("id") == selectedNodeData.attr("id")) {
-				pjs.fill(25,25,25);
+		 	if ($nodeData.attr("id") == selectedNodeData.attr("id")) {
+				// Draws the target around the selected node
+				pjs.strokeWeight(2);
+				pjs.stroke(255,255,255);
+				// Top left
+				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") - 10, $nodeData.data("x") - 5, $nodeData.data("y") - 10) // horizontal
+				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") - 10, $nodeData.data("x") - 10, $nodeData.data("y") - 5) // vertical
+				// Top right
+				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") - 10, $nodeData.data("x") + 5, $nodeData.data("y") - 10) // horizontal
+				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") - 10, $nodeData.data("x") + 10, $nodeData.data("y") - 5) // vertical
+				// bottom left
+				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") + 10, $nodeData.data("x") - 10, $nodeData.data("y") + 5) // horizontal
+				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") + 10, $nodeData.data("x") - 5, $nodeData.data("y") + 10) // vertical
+				// bottom right
+				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") + 10, $nodeData.data("x") + 5, $nodeData.data("y") + 10) // horizontal
+				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") + 10, $nodeData.data("x") + 10, $nodeData.data("y") + 5) // vertical
 			} else {
 				pjs.fill(255, 0, 0);
 			}
 		}
-		else {
+		
+		if ($nodeData.hasClass("viewed")) {
 			pjs.fill(255, 0, 0);
+		}
+		else {
+			pjs.fill(50,50,50);
 		}										
 		pjs.strokeWeight(1);
-		pjs.stroke(0,0,0);
-		pjs.ellipse(nodeData.data("x"), nodeData.data("y"), opts.nodeDiameter, opts.nodeDiameter);
+		pjs.stroke(255,255,0);
+		pjs.ellipse($nodeData.data("x"), $nodeData.data("y"), opts.nodeDiameter, opts.nodeDiameter);
 	},
 	
 	getNumberOfGenerations = function() {
@@ -281,6 +293,15 @@
         return { x: x, y: y}; //returns the muse position relative to the element
     },
 
+	selectNodePrivate = function($nodeElement) {
+		$selectedNodeElement = $nodeElement;
+		var $selectedNodeData = getNodeData($selectedNodeElement);
+		$selectedNodeData.addClass("viewed");
+		if (opts.onNodeSelected) {
+			opts.onNodeSelected($selectedNodeData);
+		}
+	},
+	
 	findNode = function(x, y) {
 		var nodeFound = undefined;
 		$nodesElement.find("li").each(function(index, nodeElement) {
@@ -293,6 +314,10 @@
 		});
 		return nodeFound;
 	},
+	
+	findNodeElement = function(nodeId) {
+		return $("#node_" + nodeId).parent();
+	}
 	
 	fitToCanvas = function() {
 		var scaleX = undefined;
@@ -335,6 +360,10 @@
 
 	huddlePublic.addNode = function(nodeJson) {
 		$rootNode = getRootNodeElement();
+	};
+	
+	huddlePublic.selectNode = function(id) {
+		selectNodePrivate(findNodeElement(id));
 	};
 	
 	// plugin defaults - added as a property on our plugin function

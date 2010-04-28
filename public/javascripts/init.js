@@ -1,5 +1,6 @@
+var nodeIdAdded = undefined;
+
 $(document).ready(function() {
-	
 	//$("#node_details").hide();
 	$("#nodes").huddle($('canvas'), {
 		onNodeSelected: nodeSelected
@@ -35,14 +36,19 @@ $(document).ready(function() {
 	fdSliderController.createSlider(options);
 	
 	$("#nodes_wrapper .reply a").fancybox({
-		'hideOnContentClick': true,
-		'width': 400,
-		'height': 400
+		'hideOnContentClick': false,
+		'scrolling': 'no',
+		'titleShow': false
 	});
 });
 
-function stompOnMessageFrame(frame) {
+function closeAddNodeForm(request) {
+	nodeIdAdded = request.responseText;
 	$.fancybox.close();
+}
+
+function stompOnMessageFrame(frame) {
+	//$.fancybox.close();
 	var nodeJson = eval('(' + frame.body + ')').node;
 	addNode(nodeJson);
 }
@@ -57,6 +63,9 @@ function addNode(nodeJson) {
 	var $nodeDataCloned = $parentNode.clone();
 	populateNodeDetailsWithResponse($nodeDataCloned, nodeJson);
 	$('<li/>').append($nodeDataCloned).appendTo($generation);
+	if (nodeIdAdded == nodeJson.id) {
+		$.fn.huddle.selectNode(nodeJson.id);
+	}
 	$.fn.huddle.redraw();
 }
 
@@ -90,6 +99,12 @@ function populateNodeDetails($nodeData) {
 function populateNodeDetailsWithResponse($nodeDataCloned, responseNode) {
 	setReplyLink(responseNode.id);
 	$nodeDataCloned.attr('id', 'node_' + responseNode.id);
+	if (responseNode.viewed_by_user) {
+		$nodeDataCloned.addClass('viewed');
+	}
+	else {
+		$nodeDataCloned.removeClass('viewed');
+	}
 	$nodeDataCloned.children('.title').html(responseNode.title);
 	$nodeDataCloned.children('.description').html(responseNode.description);
 	$nodeDataCloned.children('.author').html(responseNode.user.login);
