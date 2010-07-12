@@ -9,6 +9,7 @@ db/schema.rb
 doc/**/*
 log/*.log
 log/orbited/*.log
+log/apache2/*.log
 public/stylesheets/compiled/*
 TAGS
 tmp/**/*
