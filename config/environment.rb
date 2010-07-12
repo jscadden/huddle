@@ -42,3 +42,12 @@ Rails::Initializer.run do |config|
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
 end
+
+require "ruby-debug"
+
+if File.exists?(File.join(RAILS_ROOT,'tmp', 'debug.txt'))
+  Debugger.wait_connection = true
+  Debugger.start_remote
+  File.delete(File.join(RAILS_ROOT,'tmp', 'debug.txt'))
+end
+
