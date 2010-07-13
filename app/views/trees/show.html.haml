@@ -1,0 +1,12 @@
+%canvas#huddle_canvas
+
+#slider_wrapper
+  %input#slider(type="text" value="1")
+
+#nodes_wrapper
+  .reply
+    %a(href="#") Reply
+  #node_contents
+
+#nodes
+  %ol= render "node", :node => @tree.node

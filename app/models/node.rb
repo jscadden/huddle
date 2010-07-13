@@ -23,6 +23,7 @@ class Node < ActiveRecord::Base
   def viewed_by_user(viewingUser)
     viewed = viewers && self.viewers.exists?(:user_id => viewingUser)
   end
+  alias_method :viewed_by?, :viewed_by_user
   
   def to_hash(viewingUser)
     node_hash = self.attributes
