@@ -21,5 +21,5 @@
     = javascript_include_tag("init.js")
     = yield :scripts
     = stomp_connect("huddle", {:js => "jquery", :callbacks => {:onmessageframe => "stompOnMessageFrame"}})
-  %body#main
+  %body(class="#{page_class}")
     = yield
