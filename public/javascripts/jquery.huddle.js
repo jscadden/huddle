@@ -176,17 +176,17 @@
 				pjs.strokeWeight(2);
 				pjs.stroke(255,255,255);
 				// Top left
-				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") - 10, $nodeData.data("x") - 5, $nodeData.data("y") - 10) // horizontal
-				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") - 10, $nodeData.data("x") - 10, $nodeData.data("y") - 5) // vertical
+				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") - 10, $nodeData.data("x") - 5, $nodeData.data("y") - 10); // horizontal
+				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") - 10, $nodeData.data("x") - 10, $nodeData.data("y") - 5); // vertical
 				// Top right
-				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") - 10, $nodeData.data("x") + 5, $nodeData.data("y") - 10) // horizontal
-				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") - 10, $nodeData.data("x") + 10, $nodeData.data("y") - 5) // vertical
+				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") - 10, $nodeData.data("x") + 5, $nodeData.data("y") - 10); // horizontal
+				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") - 10, $nodeData.data("x") + 10, $nodeData.data("y") - 5); // vertical
 				// bottom left
-				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") + 10, $nodeData.data("x") - 10, $nodeData.data("y") + 5) // horizontal
-				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") + 10, $nodeData.data("x") - 5, $nodeData.data("y") + 10) // vertical
+				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") + 10, $nodeData.data("x") - 10, $nodeData.data("y") + 5); // horizontal
+				pjs.line($nodeData.data("x") - 10, $nodeData.data("y") + 10, $nodeData.data("x") - 5, $nodeData.data("y") + 10); // vertical
 				// bottom right
-				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") + 10, $nodeData.data("x") + 5, $nodeData.data("y") + 10) // horizontal
-				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") + 10, $nodeData.data("x") + 10, $nodeData.data("y") + 5) // vertical
+				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") + 10, $nodeData.data("x") + 5, $nodeData.data("y") + 10); // horizontal
+				pjs.line($nodeData.data("x") + 10, $nodeData.data("y") + 10, $nodeData.data("x") + 10, $nodeData.data("y") + 5); // vertical
 			} else {
 				pjs.fill(255, 0, 0);
 			}
@@ -213,7 +213,7 @@
 			}
 			$(generationElement).data("generation", generationNumber);
 			if (generationNumber > numberOfGenerations) {
-				numberOfGenerations = generationNumber
+				numberOfGenerations = generationNumber;
 			}				
 		});
 		return numberOfGenerations;
@@ -222,6 +222,8 @@
 	getNodeData = function($nodeElement) {
 		if ($nodeElement) {
 			return $nodeElement.children("div:first");
+		} else {
+		    return null;
 		}
 	},
 	
@@ -310,6 +312,8 @@
 			if (nodeHit(nodeData, x, y)) {
 				nodeFound = nodeElement;
 				return false;
+			} else {
+			    return true
 			}
 		});
 		return nodeFound;
@@ -317,7 +321,7 @@
 	
 	findNodeElement = function(nodeId) {
 		return $("#node_" + nodeId).parent();
-	}
+	};
 	
 	fitToCanvas = function() {
 		var scaleX = undefined;
@@ -356,7 +360,7 @@
 		getNumberOfGenerations();
 		calculateWeights(getRootNodeElement());
 		pjs.redraw();
-	}
+	};
 
 	huddlePublic.addNode = function(nodeJson) {
 		$rootNode = getRootNodeElement();
@@ -369,11 +373,11 @@
 	// plugin defaults - added as a property on our plugin function
 	huddlePublic.defaults = {
 		width: $(window).width(),
-    	height: $(window).height(),
+    		height: $(window).height(),
 		background: 50,
 		ringGap: 50,
 		nodeDiameter: 15,
-		onNodeSelected: false,
+		onNodeSelected: false
 	};
 })(jQuery);
 
