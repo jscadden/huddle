@@ -1,13 +1,12 @@
 %h1 New Huddle
 
-- form_for(setup_tree(@tree)) do |f|
-	= f.error_messages
+- form_for(@node, :url => trees_path) do |f|
+  = f.error_messages
 
-	.field
-		= f.fields_for :node do |builder|
-			= builder.label(:title)
-			%br
-			= builder.text_field(:title)
-	
-	.actions
-		= f.submit("Create Huddle")
+  .field
+    = f.label(:title)
+    %br
+    = f.text_field(:title)
+
+  .actions
+    = f.submit("Create Huddle")

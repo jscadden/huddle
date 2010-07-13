@@ -11,16 +11,26 @@ class TreesController < ApplicationController
     set_current_tree(@tree)
   end
   
+  # See note for +#create+ to explain why we're building a node here.
   def new
-    @tree = current_user.trees.new
+    @node = current_user.nodes.build(params[:node])
   end
   
+  # In a slightly different method, I've decided to have the trees controller
+  # create trees in a backwards way.  That is, in order to create a new tree,
+  # we create its root node with a flag that tells the node to create its tree
+  # after it creates itself.  This helps prevent the chicken and egg problem
+  # that springs from having the tree validate the presence of its root node
+  # while it doesn't exist.  To my understanding, even using
+  # +accepts_nested_attributes_for+ will cause the tree to be saved before the
+  # node, causing a validation failure.
   def create
-    @tree = current_user.trees.new(params[:tree])
-    
-    if @tree.save
+    @node = current_user.nodes.build(params[:node])
+    @node.is_root = true
+
+    if @node.save
       flash[:notice] = "Successfully created tree."
-      redirect_to @tree
+      redirect_to @node.tree
     else
       render :action => 'new'
     end

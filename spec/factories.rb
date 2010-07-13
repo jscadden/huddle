@@ -4,3 +4,12 @@ Factory.define "user" do |f|
   f.password "password"
   f.password_confirmation "password"
 end
+
+Factory.define "tree" do |f|
+  f.user {|f| User.first || f.association("user")}
+end
+
+Factory.define "node" do |f|
+  f.title "Test Title"
+  f.description "Test Description"
+end

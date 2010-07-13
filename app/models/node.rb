@@ -3,7 +3,13 @@ class Node < ActiveRecord::Base
   belongs_to :user
   has_many :comments
   has_many :viewers
-  
+  has_one :tree
+
+  attr_accessor :is_root
+  after_create :create_tree_if_root
+
+  validates_presence_of :title
+
   #attr_accessible :title, :description
   
   def comment_count
@@ -25,5 +31,15 @@ class Node < ActiveRecord::Base
     node_hash[:user] = {:login => self.user.login}
     node_hash[:viewed_by_user] = self.viewed_by_user(viewingUser)
     return {:node => node_hash}
+  end
+
+
+  private
+
+  def create_tree_if_root
+    if self.is_root
+      self.tree = self.build_tree(:user => self.user)
+      self.tree.save!
+    end
   end
 end
