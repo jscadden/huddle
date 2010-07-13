@@ -31,41 +31,6 @@ body {
 	padding: 10px 10px 10px 20px;
 }
 
-#slider_wrapper {
-	position: absolute;
-	top: 25px;
-	left: 15px;
-	height: 200px;
-}
-
-#slider_wrapper .fd-slider-vertical
-        {
-        float:left;
-        height:150px;
-        margin-right:4px;
-        }
-#slider_wrapper .fd-slider-vertical .fd-slider-inner
-        {
-        background:#202020;
-        border-color:#1c1c1c;
-		opacity: 0.2;
-        }
-#slider_wrapper .fd-slider-vertical .fd-slider-bar
-        {
-        background:#111;
-        border-color:#111 #2c2c2c #2c2c2c #111;
-        }
-#slider_wrapper code
-        {
-        color:#ccc;
-        }
-#slider_wrapper .fd-slider:focus .fd-slider-inner,
-#slider_wrapper .fd-slider-vertical:focus .fd-slider-inner,
-#slider_wrapper .focused .fd-slider-inner
-        {
-        background:#202020 !important;
-        border-color:#000 !important;
-        }
 
 #new_node {
 	width: 250px;

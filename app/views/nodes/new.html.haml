@@ -1,19 +1,20 @@
-.new_node
-	%h1 New Node
+#new_node_wrapper
+  %h1 New Node
 
-	- form_remote_for(@node, :complete => "closeAddNodeForm(request);") do |f|
-		= f.error_messages
+  - form_remote_for(@node, :complete => "closeAddNodeForm(request);") do |f|
+    = f.error_messages
 
-		.field
-			= f.label(:title)
-			%br
-			= f.text_field(:title)
-			%p
-			= f.label(:description)
-			%br
-			= f.text_field(:description)
-			%br
-			= f.hidden_field(:parent_id, :value => @parent_id)
-	
-		.actions
-			= f.submit("Create Huddle")
+    .field
+      = f.label(:title)
+      %br
+      = f.text_field(:title)
+
+    .field
+      = f.label(:description)
+      %br
+      = f.text_field(:description)
+
+    = f.hidden_field(:parent_id, :value => @parent_id)
+    
+    .actions
+      = save_button("Create Huddle")

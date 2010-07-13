@@ -1,13 +1,17 @@
-<canvas id="huddle_canvas"></canvas>
+<canvas id="huddle_canvas">
+</canvas>
+
 <div id="slider_wrapper">
-	<input id="slider" type="text" value="1">
+  <input id="slider" type="text" value="1"/>
 </div>
+
 <div id="nodes_wrapper">
-	<div class="reply"><a href="">Reply</a></div>
-	<div id="node_contents"></div>
+  <div class="reply"><a href="#">Reply</a></div>
+  <div id="node_contents"></div>
 </div>
+
 <div id="nodes">
-	<ol>
-		<%= render :partial => "node", :locals => {:node => @tree.node} %>
-	</ol>
+  <ol>
+    <%= render :partial => "node", :locals => {:node => @tree.node} %>
+  </ol>
 </div>

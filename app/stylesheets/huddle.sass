@@ -1,0 +1,32 @@
+@import "compass/css3/border-radius"
+@import "compass/css3/gradient"
+@import "blueprint/reset"
+@import "blueprint"
+@import "blueprint/buttons"
+@import "compass/css3/text-shadow"
+@import "partials/slider"
+
+body 
+  @include blueprint
+  @include blueprint-typography(true)
+  @include blueprint-typography-body(14px)
+
+  overflow: hidden
+
+#nodes_wrapper
+  position: absolute
+  background: #000
+  width: 100%
+  height: 150px
+  opacity: 0.7
+  left: 0px
+  padding: 10px 10px 10px 20px
+
+#new_node_wrapper
+  display: table
+  width: 310px
+
+body 
+  br + input[type='text'],
+  br + input[type='password']
+    margin-top: 0
