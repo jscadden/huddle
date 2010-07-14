@@ -56,7 +56,7 @@ function stompOnMessageFrame(frame) {
 }
 
 function addNode(nodeJson) {
-	$parentNode = nodeJson.parent_id > 0 ? $('#nodes #node_' + nodeJson.parent_id) : $('#nodes div:first')
+	$parentNode = nodeJson.parent_id > 0 ? $('#nodes #node_' + nodeJson.parent_id) : $('#nodes div:first');
 	var $generation = $parentNode.siblings("ol");
 	if ($generation.length == 0) {
 		$generation = $('<ol/>');
@@ -91,7 +91,7 @@ function populateNodeDetails($nodeData) {
 			populateNodeDetailsWithResponse($nodeDataCloned, response.node);
 			populateNodeDetailsWithResponse($nodeData, response.node);  // cache the node details so that we don't have to request it again
 			$nodeData.data("cached", true);
-		})
+		});
 	}
 	else {
 		setReplyLink($nodeDataCloned.attr('id').replace('node_', ''));
