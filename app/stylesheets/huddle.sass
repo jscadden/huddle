@@ -97,19 +97,28 @@ body
     padding: 6px
 
     .title_and_author
+      color: #222
+
       .title
         color: #222
         text-decoration: underline
+
       .author
         color: #222
 
     .avatar
       @include float(left)
       @include span(2)
+      margin-right: 10px
 
     .description
       @include span(15, true)
       color: #555
+
+  .node:nth-child(3)
+    background-color: #eee
+    border: 1px solid #ffff77
+
 
 body form .field
   br + input[type='text'],
