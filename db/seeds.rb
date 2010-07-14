@@ -16,12 +16,14 @@ user = User.create!(:login => "user",
                     :password => "password",
                     :password_confirmation => "password")
 
-tree = user.trees.create!()
-node = Node.create!(:title => "Thoughts on our new benefits package",
-                         :description => "As a company, we will be putting together a new benefits package.  What would everyone like to see added or taken out from what we currently have.",
-                         :user => user)
-tree.node = node
-tree.save!
+node = Node.new do |n|
+  n.title = "Thoughts on our new benefits package"
+  n.description = "As a company, we will be putting together a new benefits package.  What would everyone like to see added or taken out from what we currently have."
+  n.user = user
+  n.is_root = true
+end
+node.save!
+
 node_with_comments = node.children.create!(:title => "More choices of doctors",
                           :description => "Our current plan doesn't have any of the doctors that I like to see.  Can we choose a plan that has a larger network of doctors.",
                           :user => user)
