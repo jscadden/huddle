@@ -22,4 +22,12 @@
     = yield :scripts
     = stomp_connect("huddle", {:js => "jquery", :callbacks => {:onmessageframe => "stompOnMessageFrame"}})
   %body(class="#{page_class}")
-    = yield
+    #container
+      #header
+        %h1 Realtime Huddle!
+      #content
+        = yield
+      #right_column
+        = yield(:right_column)
+    #footer
+      Copyright ©2010 Wagile Consulting, LLC all rights reserved.

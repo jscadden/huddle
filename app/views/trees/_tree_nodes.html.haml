@@ -1,0 +1,9 @@
+.node
+  .title_and_author
+    %span.title=h node.title
+    %span.author=h node.user.login
+  .avatar
+    = image_tag("/images/missing.png")
+  .description=h node.description
+- node.children.each do |child|
+  = render "tree_nodes", :node => child

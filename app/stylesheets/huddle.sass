@@ -1,17 +1,74 @@
 @import "compass/css3/border-radius"
 @import "compass/css3/gradient"
+@import "compass/css3/box-shadow"
+@import "compass/css3/text-shadow"
 @import "blueprint/reset"
 @import "blueprint"
 @import "blueprint/buttons"
-@import "compass/css3/text-shadow"
 @import "partials/slider"
+
+
+$default_text_color: #e0e0e0
 
 body 
   @include blueprint
   @include blueprint-typography(true)
   @include blueprint-typography-body(14px)
 
+  background-color: #777
   overflow: hidden
+
+#container
+  //@include showgrid
+  @include container
+  @include box-shadow(rgb(50, 50, 50), -3px, 3px, 10px)
+
+  background-color: #666
+
+  *
+    color: $default_text_color
+
+  #header, #footer
+    @include column(24)
+
+  #header
+    @include prepend-top(1.5em)
+
+  #footer
+    @include prepend-top(3em)
+
+  #left_column
+    @include column(6)
+
+  #content
+    @include prepend(1)
+    @include column(15)
+    @include append(1)
+    @include append-bottom(1.5em)
+
+  #right_column
+    @include column(6, true)
+    @include append(1)
+
+#footer
+  @include container
+  @include prepend-top(1.5em)
+  color: #ddd
+  font-size: 80%
+  text-align: center
+
+#header
+  text-align: center
+
+  h1
+    font-style: italic
+    text-transform: lowercase
+
+#huddle_canvas
+  @include box-shadow(rgb(50, 50, 50), -2px, 2px)
+
+  height: 240px
+  width: 240px
 
 #nodes_wrapper
   position: absolute
@@ -22,11 +79,43 @@ body
   left: 0px
   padding: 10px 10px 10px 20px
 
+#nodes
+  display: none
+
 #new_node_wrapper
   display: table
   width: 310px
 
-body 
+#content
+  .node
+    @include box-shadow(#444, -2px, 2px, 8px)
+    @include append-bottom(1px)
+    @include column(15, true)
+    background-color: #ccc
+    border: 1px solid #d7d7d7
+    color: #222
+    padding: 6px
+
+    .title_and_author
+      .title
+        color: #222
+        text-decoration: underline
+      .author
+        color: #222
+
+    .avatar
+      @include float(left)
+      @include span(2)
+
+    .description
+      @include span(15, true)
+      color: #555
+
+body form .field
   br + input[type='text'],
-  br + input[type='password']
+  br + input[type='password'],
+  br + input[type='radio'],
+  br + input[type='checkbox'],
+  br + select,
+  br + textarea
     margin-top: 0

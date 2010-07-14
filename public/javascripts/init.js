@@ -3,6 +3,8 @@ var nodeIdAdded = undefined;
 $(document).ready(function() {
 	//$("#node_details").hide();
 	$("#nodes").huddle($('canvas'), {
+		width: 240,
+		height: 240,
 		onNodeSelected: nodeSelected
 	});
 	

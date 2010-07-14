@@ -1,7 +1,4 @@
-%canvas#huddle_canvas
-
-#slider_wrapper
-  %input#slider(type="text" value="1")
+= render "tree_nodes", :node => @tree.node
 
 #nodes_wrapper
   .reply
@@ -9,4 +6,9 @@
   #node_contents
 
 #nodes
-  %ol= render "node", :node => @tree.node
+  %ol= render "node", :node => @tree.node, :root => true
+
+= content_for(:right_column) do
+  #slider_wrapper
+    %input#slider(type="text" value="1")
+  %canvas#huddle_canvas(width="240" height="240")
