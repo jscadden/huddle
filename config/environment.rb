@@ -44,8 +44,6 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
 end
 
-require "ruby-debug"
-
 if File.exists?(File.join(RAILS_ROOT,'tmp', 'debug.txt'))
   Debugger.wait_connection = true
   Debugger.start_remote
