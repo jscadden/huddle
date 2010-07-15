@@ -1,46 +1,6 @@
-# adapted from 
-# http://github.com/pedro/hassle/issues/closed#issue/4 (follow Mislav's code)
+require "fileutils"
 
-require 'haml/helpers/action_view_mods'
-require 'haml/helpers/action_view_extensions'
-require 'haml/template'
-require 'sass'
-require 'sass/plugin'
-
-Rails::Configuration.class_eval do
-  attr_writer :heroku
-
-  def initialize
-    super
-    @heroku = !ENV['HEROKU_TYPE'].blank?
-  end
-
-  def heroku?
-    @heroku
-  end
-end
-
-Rails.logger.info("
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-Heroku? #{!ENV["HEROKU_TYPE"].blank?}
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
-")
-
-# based on suggestion from Chris Eppstein:
-# http://github.com/chriseppstein/compass/issues/issue/130/#comment_238101
-Sass::Plugin.options[:css_location] = [
-  !ENV['HEROKU_TYPE'].blank? ? "#{Rails.root}/tmp/stylesheets" : "#{Rails.root}/public/stylesheets"
-]
-
-if !ENV['HEROKU_TYPE'].blank?
-  FileUtils.mkdir_p(Rails.root + "tmp/stylesheets")
-  # add Rack middleware to serve compiled stylesheets from "tmp/stylesheets"
-  Rails.configuration.middleware.insert_after 'Sass::Plugin::Rack', 'Rack::Static', :urls => ['/stylesheets'], :root => "#{Rails.root}/tmp/stylesheets"
+if !ENV["HEROKU_TYPE"]
+  FileUtils.mkdir_p(Rails.root.join("tmp", "stylesheets", "compiled"))
+  ActionController::Dispatcher.middleware.use(Rack::Static, :root => "tmp/", :urls => ["/stylesheets/compiled"])
 end
