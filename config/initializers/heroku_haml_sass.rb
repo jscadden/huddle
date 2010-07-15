@@ -12,7 +12,7 @@ Rails::Configuration.class_eval do
 
   def initialize
     super
-    @heroku = !!ENV['HEROKU_TYPE']
+    @heroku = !ENV['HEROKU_TYPE'].blank?
   end
 
   def heroku?
