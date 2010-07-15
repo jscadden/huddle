@@ -12,6 +12,7 @@ class Hassle
   end
 
   def call(env)
+    debugger
     @static.call(env)
   end
 end
@@ -25,7 +26,7 @@ class Hassle::Compiler
     expanded = File.expand_path(path)
     public_dir = File.join(File.expand_path(Dir.pwd), "public")
 
-    File.expand_path(compile_location(expanded.gsub(public_dir, ''), '..'))
+    File.expand_path(compile_location(expanded.gsub(public_dir, '')))
   end
 
   def compile_location(*subdirs)
