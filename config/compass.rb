@@ -4,11 +4,7 @@ project_type = :rails
 project_path = Compass::AppIntegration::Rails.root
 # Set this to the root of your project when deployed:
 http_path = "/"
-if !ENV["HEROKU_TYPE"].blank?
-  css_dir = "tmp/stylesheets/compiled"
-else
-  css_dir = "public/stylesheets/compiled"
-end
+css_dir = "public/stylesheets/compiled"
 sass_dir = "app/stylesheets"
 environment = Compass::AppIntegration::Rails.env
 # To enable relative paths to assets via compass helper functions. Uncomment:
