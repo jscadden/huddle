@@ -1,4 +1,6 @@
-.node
+.node(class="node_#{node.id}")
+  .actions
+    = link_to(image_tag("arrow_reply.png", :title => "Reply"), new_node_path(:parent => node.id), :class => "reply")
   .title_and_author
     %span.title=h node.title
     by 

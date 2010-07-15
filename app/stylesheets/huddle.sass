@@ -86,15 +86,32 @@ body
   display: table
   width: 310px
 
-#content
+
+#tree_nodes
+  overflow: auto
+  overflow-x: hidden
+  @include column(14)
+
   .node
     @include box-shadow(#444, -2px, 2px, 8px)
     @include append-bottom(1px)
-    @include column(15, true)
     background-color: #ccc
     border: 1px solid #d7d7d7
+    clear: left
     color: #222
+    height: 6em
     padding: 6px
+
+    &.selected
+      background-color: #eee
+      border: 1px solid #ffff77
+
+    .actions
+      @include float(right)
+      visibility: hidden
+
+    &:hover .actions
+      visibility: visible
 
     .title_and_author
       color: #222
@@ -112,12 +129,7 @@ body
       margin-right: 10px
 
     .description
-      @include span(15, true)
       color: #555
-
-  .node:nth-child(3)
-    background-color: #eee
-    border: 1px solid #ffff77
 
 
 body form .field
