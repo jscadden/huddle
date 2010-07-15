@@ -141,6 +141,7 @@ function nodeSelected($nodeData) {
 
     $(".node").removeClass("selected");
     node.addClass("selected");
+    node.removeClass("unread");
     var idx = $("#tree_nodes .node").index(node);
     var scrollTo = Math.max(0, (idx - 2) * $(node).outerHeight());
     $("#tree_nodes").animate({"scrollTop": scrollTo});
