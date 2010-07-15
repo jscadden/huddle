@@ -23,7 +23,7 @@ end
 # based on suggestion from Chris Eppstein:
 # http://github.com/chriseppstein/compass/issues/issue/130/#comment_238101
 Sass::Plugin.options[:css_location] = [
-  Rails.configuration.heroku? ? "#{Rails.root}/tmp/stylesheets" : "#{Rails.root}/public/stylesheets"
+  !ENV['HEROKU_TYPE'].blank? ? "#{Rails.root}/tmp/stylesheets" : "#{Rails.root}/public/stylesheets"
 ]
 
 if !ENV['HEROKU_TYPE'].blank?
