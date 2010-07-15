@@ -49,9 +49,3 @@ if File.exists?(File.join(RAILS_ROOT,'tmp', 'debug.txt'))
   Debugger.start_remote
   File.delete(File.join(RAILS_ROOT,'tmp', 'debug.txt'))
 end
-
-Sass::Plugin.options[:template_location] = {
-  "./app/stylesheets" => "./public/stylesheets/compiled",
-  "./app/stylesheets/partials" => "./public/stylesheets/compiled",
-  File.join(ENV["GEM_PATH"].split(":")[0], "compass-0.10.2/frameworks") => "./public/stylesheets/compiled",
-}
