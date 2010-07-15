@@ -56,6 +56,9 @@ function init_new_node_fancy_box() {
     });
     $(".node a.reply").fancybox({
 	'hideOnContentClick': false,
+	onComplete: function () {
+	    $("#new_node input[name='node[title]']").focus();
+	},
 	'scrolling': 'no',
 	'titleShow': false
     });
