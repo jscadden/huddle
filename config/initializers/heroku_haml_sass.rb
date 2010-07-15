@@ -26,7 +26,7 @@ Sass::Plugin.options[:css_location] = [
   Rails.configuration.heroku? ? "#{Rails.root}/tmp/stylesheets" : "#{Rails.root}/public/stylesheets"
 ]
 
-if Rails.configuration.heroku? 
+if !ENV['HEROKU_TYPE'].blank?
   # add Rack middleware to serve compiled stylesheets from "tmp/stylesheets"
   Rails.configuration.middleware.insert_after 'Sass::Plugin::Rack', 'Rack::Static', :urls => ['/stylesheets'], :root => "#{Rails.root}/tmp"
 end
