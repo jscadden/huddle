@@ -37,7 +37,7 @@ class Hassle::Compiler
 
     if template_location.is_a?(Hash) || template_location.is_a?(Array)
       options[:template_location] = template_location.to_a.map do |input, output|
-        [input, css_location(input)]
+        [input, css_location(output)]
       end
     else
       default_location = File.join(options[:css_location], "sass")
