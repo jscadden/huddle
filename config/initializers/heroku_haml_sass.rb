@@ -26,7 +26,6 @@ Rails.logger.info("
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Heroku? #{!ENV["HEROKU_TYPE"].blank?}
-Heroku? #{!ENV["HEROKU_TYPE"].blank?}
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -43,5 +42,5 @@ Sass::Plugin.options[:css_location] = [
 if !ENV['HEROKU_TYPE'].blank?
   FileUtils.mkdir_p(Rails.root + "tmp/stylesheets")
   # add Rack middleware to serve compiled stylesheets from "tmp/stylesheets"
-  Rails.configuration.middleware.insert_after 'Sass::Plugin::Rack', 'Rack::Static', :urls => ['/stylesheets'], :root => "#{Rails.root}/tmp"
+  Rails.configuration.middleware.insert_after 'Sass::Plugin::Rack', 'Rack::Static', :urls => ['/stylesheets'], :root => "#{Rails.root}/tmp/stylesheets"
 end
