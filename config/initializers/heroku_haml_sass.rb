@@ -20,6 +20,18 @@ Rails::Configuration.class_eval do
   end
 end
 
+Rails.logger.info("
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Heroku? #{!ENV["HEROKU_TYPE"].blank?}
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+")
 # based on suggestion from Chris Eppstein:
 # http://github.com/chriseppstein/compass/issues/issue/130/#comment_238101
 Sass::Plugin.options[:css_location] = [
