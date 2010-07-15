@@ -76,8 +76,6 @@
 		};
 		
 		$(window).resize(function() {
-			opts.width = $(window).width();
-			opts.height = $(window).height();
 			pjs.redraw();
 			$("#nodes_wrapper").css('top', $(window).height());
 		});
