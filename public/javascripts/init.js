@@ -84,7 +84,8 @@ function reset_tree_nodes_height() {
 
     height = $(window).height()
       - $("#tree_nodes").offset().top
-      - $("#footer").outerHeight();
+      - $("#footer").outerHeight() * 4;
+    console.log("height: " + height);
 
     $("#tree_nodes").height(height);
 }
