@@ -73,6 +73,7 @@
 			if (nodeElement) {
 				selectNodePrivate($(nodeElement));
 			}
+
 		};
 		
 		$(window).resize(function() {
@@ -137,15 +138,16 @@
 	},
 	
 	positionAndDrawNodes = function() {
-		var rootNodeData = getNodeData(getRootNodeElement());
-		if (rootNodeData) {							
-			if (huddleMoved) {
-				positionChildNodes(getRootNodeElement());
-				drawConnectionLines();
-			}
-			drawNode(rootNodeData);	
-			drawChildNodes();				
-		}			
+	    var rootNodeData = getNodeData(getRootNodeElement());
+	    if (rootNodeData) {
+		if (huddleMoved) {
+		    positionChildNodes(getRootNodeElement());
+		    drawConnectionLines();
+		}
+		drawNode(rootNodeData);	
+		drawChildNodes();				
+
+	    }			
 	},
 	
 	drawConnectionLines = function() {
@@ -189,13 +191,38 @@
 				pjs.fill(255, 0, 0);
 			}
 		}
-		
-		if ($nodeData.hasClass("viewed")) {
-			pjs.fill(255, 0, 0);
+
+	        var hover = false;
+
+		if (pjs.pmouseX != pjs.mouseX || 
+		    pjs.pmouseY != pjs.mouseY) {
+		    var x = pjs.mouseX;
+		    var y = pjs.mouseY;
+		    var xLocation = (x - baseX) / scale;
+		    var yLocation = (y - baseY) / scale;
+		    if (nodeHit($nodeData, xLocation, yLocation)) {
+			hover = true;
+			if (opts.onNodeOver) {
+			    opts.onNodeOver($nodeData);
+			    $nodeData.data("hover", true);
+			}
+		    } else if ($nodeData.data("hover")) { 
+			$nodeData.data("hover", false);
+			if (opts.onNodeOut) {
+			    opts.onNodeOut();
+			}
+		    }
+		}
+
+	        if (hover){
+		    pjs.fill(255, 0, 255);
+		} else if ($nodeData.hasClass("viewed")) {
+		    pjs.fill(255, 0, 0);
 		}
 		else {
-			pjs.fill(50,50,50);
+		    pjs.fill(50,50,50);
 		}										
+
 		pjs.strokeWeight(1);
 		pjs.stroke(255,255,0);
 		pjs.ellipse($nodeData.data("x"), $nodeData.data("y"), opts.nodeDiameter, opts.nodeDiameter);
@@ -375,7 +402,9 @@
 		background: 50,
 		ringGap: 50,
 		nodeDiameter: 15,
-		onNodeSelected: false
+		onNodeSelected: false,
+                onNodeOver: false,
+	        onNodeOut: false
 	};
 })(jQuery);
 

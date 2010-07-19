@@ -11,7 +11,9 @@ function init_huddle_canvas() {
     $("#nodes").huddle($('canvas'), {
 	    width: 240,
 	    height: 240,
-	    onNodeSelected: nodeSelected // called when huddle is loaded
+	    onNodeSelected: nodeSelected, // also called when huddle is loaded
+	    onNodeOver: nodeOver,
+	    onNodeOut: nodeOut
     });
     $("#huddle_wrapper").css("position", "fixed");
 }
@@ -134,6 +136,17 @@ function add_node_in_content(nodeJson) {
 
 function updateZoom(cbObj) {
 	$.fn.huddle.zoom(cbObj.value);
+}
+
+function nodeOver(nodeData) {
+    var node_id = $(nodeData).attr("id");
+    var node = $("#tree_nodes .node." + node_id);
+    $("#tree_nodes .node").removeClass("hover");
+    node.addClass("hover");
+}
+
+function nodeOut() {
+    $("#tree_nodes .node").removeClass("hover");
 }
 
 function nodeSelected($nodeData) {
