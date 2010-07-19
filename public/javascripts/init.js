@@ -73,13 +73,20 @@ function init_node_list() {
 	$.fn.huddle.selectNode(node_id);
     });
 
-    var height = $(window).height();
-    height -= $("#tree_nodes").offset().top;
-    var bottom = $("#tree_nodes").outerHeight() + $("#tree_nodes").offset().top;
-    bottom = $(document).height() - bottom;
-    height -= bottom;
-    console.log("height: " + height);
-    $("#tree_nodes").css("height", "" + height + "px");
+    reset_tree_nodes_height();
+    $(window).resize(function () {
+	reset_tree_nodes_height();
+    });
+}
+
+function reset_tree_nodes_height() {
+    var height = 0;
+
+    height = $(window).height()
+      - $("#tree_nodes").offset().top
+      - $("#footer").outerHeight();
+
+    $("#tree_nodes").height(height);
 }
 
 function closeAddNodeForm(request) {
