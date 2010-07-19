@@ -35,7 +35,7 @@ function init_huddle_scaling_slider() {
 	// Tween the handle onclick?
 	tween:          false,
 	// Is this a vertical slider
-	vertical:       true,
+	vertical:       false,
 	// Do we hide the associated input on slider creation
 	hideInput:      true,
 	// Does the handle jump to the nearest click value point when the bar is clicked (tween cannot then be true)
