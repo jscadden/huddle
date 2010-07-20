@@ -1,7 +1,8 @@
 class TreesController < ApplicationController
   layout "trees", :except => [:index] 
   before_filter :require_user
-  
+  filter_resource_access
+
   def index
     @trees = current_user.trees.all
     @invited_trees = current_user.invited_trees
@@ -14,7 +15,6 @@ class TreesController < ApplicationController
   
   # See note for +#create+ to explain why we're building a node here.
   def new
-    @node = current_user.nodes.build(params[:node])
   end
   
   # In a slightly different method, I've decided to have the trees controller
@@ -26,7 +26,6 @@ class TreesController < ApplicationController
   # +accepts_nested_attributes_for+ will cause the tree to be saved before the
   # node, causing a validation failure.
   def create
-    @node = current_user.nodes.build(params[:node])
     @node.is_root = true
 
     if @node.save
@@ -57,4 +56,14 @@ class TreesController < ApplicationController
     flash[:notice] = "Successfully destroyed tree."
     redirect_to trees_url
   end
+
+
+  protected
+
+  def new_tree_from_params
+    @node = current_user.nodes.build(params[:node])
+    @tree = @node.build_tree
+    @tree.user = current_user
+  end
+
 end

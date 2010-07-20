@@ -1,4 +1,6 @@
 class NodesController < ApplicationController
+  filter_resource_access
+
   def index
     @nodes = Node.all
   end

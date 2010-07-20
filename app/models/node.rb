@@ -10,7 +10,8 @@ class Node < ActiveRecord::Base
 
   validates_presence_of :title
 
-  #attr_accessible :title, :description
+  # TODO: enable me
+  # attr_accessible :title, :description 
   
   def comment_count
     comments.size
