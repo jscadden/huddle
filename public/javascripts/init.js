@@ -9,8 +9,8 @@ $(document).ready(function() {
 
 function init_huddle_canvas() {
     $("#nodes").huddle($('canvas'), {
-	    width: 240,
-	    height: 240,
+	    width: 230,
+	    height: 230,
 	    onNodeSelected: nodeSelected, // also called when huddle is loaded
 	    onNodeOver: nodeOver,
 	    onNodeOut: nodeOut
