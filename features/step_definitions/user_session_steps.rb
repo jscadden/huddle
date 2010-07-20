@@ -20,6 +20,14 @@ Given /^I\'m logged in as the invitation\'s recipient$/ do
   # TODO: add a quick assertion here
 end
 
+Given /^I\'m logged in as the second user$/ do
+  visit(login_path)
+  fill_in("Login", :with => @second_user.login)
+  fill_in("Password", :with => @second_user.password || "password")
+  click_button("Log in")
+  # TODO: add a quick assertion here
+end
+
 When /^I log out$/ do
   visit(logout_path)
   visit(root_path)

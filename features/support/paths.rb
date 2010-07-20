@@ -23,6 +23,10 @@ module NavigationHelpers
     when /the invite a collaborator form/
       new_invitation_path(:tree_id => newest_tree.id)
 
+    when /the public tree/
+      tree = Tree.is_public.find(:first, :order => "created_at DESC")
+      tree_path(tree)
+
     else
       begin
         page_name =~ /the (.*) page/

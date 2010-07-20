@@ -1,9 +1,9 @@
 authorization do
 
   role :guest do
-    # has_permission_on :trees, :to => [:view,] do
-    #   if_attribute :public => is {true}
-    # end
+    has_permission_on :trees, :to => [:view,] do
+      if_attribute :public => is {true}
+    end
 
     has_permission_on :nodes, :to => [:view,] do
       if_permitted_to :view, :tree

@@ -19,7 +19,7 @@ describe Node do
       end
 
       it "should raise an exception if its tree is not saved" do
-        tree = Factory.build("tree")
+        tree = Factory.build("tree", :public => false)
         subject.stub(:build_tree).and_return(tree)
         tree.should_receive(:save!).and_raise(ActiveRecord::ActiveRecordError)
 

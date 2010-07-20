@@ -8,6 +8,7 @@ end
 Factory.define "tree" do |f|
   f.user {|f| User.first || f.association("user")}
   f.association(:node)
+  f.public false
 end
 
 Factory.define "node" do |f|

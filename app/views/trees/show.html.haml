@@ -13,3 +13,10 @@
   %canvas#huddle_canvas(width="230" height="230")
   #slider_wrapper
     %input#slider(type="text" value="1")
+
+  #tree_info
+    - if @tree.public
+      %p
+        = image_tag("world.png")
+        This huddle is public
+      

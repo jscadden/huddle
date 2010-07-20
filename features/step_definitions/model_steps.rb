@@ -23,3 +23,7 @@ Given /^an accepted invitation exists$/ do
   @accepted_invitation.save!
   Invitation.accepted.should include(@accepted_invitation)
 end
+
+Given /^a public tree exists$/ do
+  Factory("tree", :public => true)
+end

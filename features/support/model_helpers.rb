@@ -11,6 +11,7 @@ module ModelHelpers
         Factory(model_name)
     end
   end
+
 end
 
 World(ModelHelpers)

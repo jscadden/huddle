@@ -1,6 +1,6 @@
 class TreesController < ApplicationController
   layout "trees", :except => [:index] 
-  before_filter :require_user
+  before_filter :require_user, :except => [:show,]
   filter_resource_access
 
   def index

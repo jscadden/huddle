@@ -20,6 +20,10 @@ body
 
 body thead th
   background-color: #333
+
+form .field
+  @include prepend-top(1.5em)
+  @include append-bottom(1.5em)
   
 #container .error
   color: #0F0F0F
@@ -52,6 +56,9 @@ body thead th
   #right_column
     @include column(6, true)
     @include append(1)
+
+    #tree_info
+      @include prepend-top(1.5em)
 
 #footer
   @include container

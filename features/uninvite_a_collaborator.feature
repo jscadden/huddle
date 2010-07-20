@@ -23,8 +23,6 @@ Feature: Uninvite a collaborator
     And I check "tree_invitations_attributes_0__destroy"
     And I press "Save Huddle"
     And I log out
-    Given I am on the login page
-    And I fill out the login form as the second user
-    And I press "Log in"
+    Given I'm logged in as the second user
     Then I should not see a link to the invited tree
 

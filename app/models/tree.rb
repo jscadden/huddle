@@ -14,4 +14,9 @@ class Tree < ActiveRecord::Base
   delegate :title, :to => :node
 
   accepts_nested_attributes_for :invitations, :allow_destroy => true
+
+  # can't use public as it's a reserved word somewhere?
+  # https://rails.lighthouseapp.com/projects/8994/tickets/404-named_scope-bashes-critical-methods
+  named_scope :is_public, :conditions => {:public => true}
+  named_scope :is_private, :conditions => {:public => false}
 end
