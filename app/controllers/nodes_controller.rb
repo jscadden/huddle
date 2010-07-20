@@ -21,11 +21,9 @@ class NodesController < ApplicationController
   
   def new
     @parent_id  = params[:parent]
-    @node = Node.new
   end
   
   def create
-    @node = Node.new(params[:node])
     @node.user = current_user
     if @node.save
       flash.now[:notice] = "Successfully created node."
@@ -57,5 +55,12 @@ class NodesController < ApplicationController
     @node.destroy
     flash[:notice] = "Successfully destroyed node."
     redirect_to nodes_url
+  end
+
+
+  protected
+
+  def new_node_from_params
+    @node = current_user.nodes.build(params[:node])
   end
 end
