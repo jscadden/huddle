@@ -44,7 +44,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resource :user_sessions
   map.resource :account, :controller => "users"
   map.resources :users
-  
+  map.resources :invitations, :only => [:new, :create, :show, :update]
+
   # See how all your routes lay out with "rake routes"
 
   # Install the default routes as the lowest priority.

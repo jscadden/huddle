@@ -1,0 +1,15 @@
+%h1 Invite A Collaborator
+
+- form_for(@invitation) do |f|
+  = f.error_messages
+  = f.hidden_field(:tree_id)
+
+  .field
+    = f.label(:recipient_email)
+    = f.text_field(:recipient_email)
+
+  .field
+    = f.label(:read_only)
+    = f.check_box(:read_only)
+
+  = f.submit("Invite")

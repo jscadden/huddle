@@ -40,6 +40,10 @@ class ApplicationController < ActionController::Base
       return false
     end
   end
+
+  def logged_in?
+    !current_user.nil?
+  end
   
   def store_location
     session[:return_to] = request.request_uri

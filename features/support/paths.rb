@@ -17,6 +17,12 @@ module NavigationHelpers
     #   when /^(.*)'s profile page$/i
     #     user_profile_path(User.find_by_login($1))
 
+    when /the trees index/
+      trees_path
+
+    when /the invite a collaborator form/
+      new_invitation_path(:tree_id => newest_tree.id)
+
     else
       begin
         page_name =~ /the (.*) page/

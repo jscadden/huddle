@@ -4,3 +4,17 @@
 %ul
   = list_of(@trees) do |tree|
     = link_to(h(tree.node.title), tree)
+    - if permitted_to?(:manage, tree)
+      = link_to("Invite A Collaborator", new_invitation_path(:invitation => {:tree_id => tree}))
+    - if permitted_to?(:manage, tree)
+      = link_to(image_tag("page_white_edit.png") + "Edit", edit_tree_path(tree), :title => "Edit Huddle")
+
+- if @invited_trees.count > 0
+  %h2 Huddles on which I collaborate
+  %ul
+    = list_of(@invited_trees) do |tree|
+      = link_to(h(tree.node.title), tree)
+      - if permitted_to?(:collaborate, tree)
+        (Read-Write)
+      - else
+        (Read-Only)
