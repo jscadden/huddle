@@ -26,7 +26,7 @@ class NodesController < ApplicationController
     @node = Node.new(params[:node])
     @node.user = current_user
     if @node.save
-      flash[:notice] = "Successfully created node."
+      flash.now[:notice] = "Successfully created node."
       node_json = @node.to_hash(current_user).to_json
       Orbited.send_data('huddle', node_json)
       render :text => @node.id
