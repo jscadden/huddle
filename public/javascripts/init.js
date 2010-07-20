@@ -126,6 +126,14 @@ function add_node_in_content(nodeJson) {
     var node = $("<div/>")
 	.addClass("node")
 	.addClass("node_" + nodeJson.id);
+    var actions = $("<div/>").addClass("actions");
+    var reply = $("<a/>").addClass("reply").attr("href", "/nodes/new?parent=" + nodeJson.id);
+    var icon = $("<img/>")
+	.attr("title", "Reply")
+	.attr("src", "/images/arrow_reply.png");
+    reply.append(icon);
+    actions.append(reply);
+
     var title_and_author = $("<div/>").addClass("title_and_author");
     var title = $("<span/>").addClass("title").append(nodeJson.title);
     var author = $("<spanr/>").addClass("author")
@@ -138,8 +146,9 @@ function add_node_in_content(nodeJson) {
     avatar.append(img);
     var description = $("<description/>").addClass("description")
 	.append(nodeJson.description);
-    node.append(title_and_author).append(avatar).append(description);
+    node.append(actions).append(title_and_author).append(avatar).append(description);
     parent.after(node);
+    init_new_node_fancy_box();
 }
 
 function updateZoom(cbObj) {
