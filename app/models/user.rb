@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
-  acts_as_authentic
-  
+  include User::Authentication
+
   has_many :trees
   has_many :nodes
 end
