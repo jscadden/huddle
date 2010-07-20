@@ -83,11 +83,19 @@ private
 
   def initialize_js
   <<-EOS
-    Orbited.settings.hostname = '#{request.ssl? ? OrbitedConfig.ssl_host : OrbitedConfig.host}';
-    Orbited.settings.port = '#{request.ssl? ? OrbitedConfig.ssl_port : OrbitedConfig.port}';
-    Orbited.settings.protocol = '#{request.ssl? ? "https" : "http"}'
-    Orbited.settings.streaming = true;
-    TCPSocket = Orbited.TCPSocket;
+$(function () {
+    try {
+        Orbited.settings.hostname = '#{request.ssl? ? OrbitedConfig.ssl_host : OrbitedConfig.host}';
+        Orbited.settings.port = '#{request.ssl? ? OrbitedConfig.ssl_port : OrbitedConfig.port}';
+        Orbited.settings.protocol = '#{request.ssl? ? "https" : "http"}'
+        Orbited.settings.streaming = true;
+        TCPSocket = Orbited.TCPSocket;
+    } catch (e) {
+        var error = $("<div/>").addClass("flash").addClass("error");
+        error.append("Orbited Initialization Error.  You will not receive dynamic huddle updates.")
+        $("#flash").append(error);
+    }
+});
   EOS
   end
 

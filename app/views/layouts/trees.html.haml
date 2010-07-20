@@ -8,10 +8,10 @@
     = render "/common/blueprint_stylesheet_links"
     = stylesheet_link_tag 'compiled/huddle.css', :media => 'screen, projection'
     = yield :styles
-    = orbited_javascript
     = javascript_include_tag("processing-0.7.1.js")
     = javascript_include_tag("http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js")
     = javascript_include_tag("http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js")
+    = orbited_javascript
     = javascript_include_tag("jquery.mousewheel.js")
     = javascript_include_tag("jquery.huddle.js")
     = javascript_include_tag("slider.js")
