@@ -6,6 +6,7 @@ class TreesController < ApplicationController
   def index
     @trees = current_user.trees.all
     @invited_trees = current_user.invited_trees
+    @public_trees = Tree.is_public.all - @trees - @invited_trees
   end
   
   def show
