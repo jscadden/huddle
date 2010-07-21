@@ -85,7 +85,6 @@ function reset_tree_nodes_height() {
     height = $(window).height()
       - $("#tree_nodes").offset().top
       - $("#footer").outerHeight() * 4;
-    console.log("height: " + height);
 
     $("#tree_nodes").height(height);
 }
@@ -104,7 +103,6 @@ function addNode(nodeJson) {
 	$parentNode = nodeJson.parent_id > 0 ? $('#nodes #node_' + nodeJson.parent_id) : $('#nodes div:first');
 	var $generation = $parentNode.siblings("ol");
 	if ($generation.length == 0) {
-		console.log("generation is length 0"); // leaf node
 		$generation = $('<ol/>');
 		$parentNode.parent().append($generation);
 	}
@@ -114,9 +112,7 @@ function addNode(nodeJson) {
 
 	add_node_in_content(nodeJson);
 
-	if (nodeIdAdded == nodeJson.id) {
-		$.fn.huddle.selectNode(nodeJson.id);
-	}
+	$.fn.huddle.selectNode(nodeJson.id);
 	$.fn.huddle.redraw();
 }
 
@@ -221,5 +217,5 @@ function populateNodeDetailsWithResponse($nodeDataCloned, responseNode) {
 
 // sets the parent id for the new node form -- EAW
 function setReplyLink(parentId) {
-	$('#nodes_wrapper').find('.reply a').attr("href", "/nodes/new?parent=" + parentId);
+    $('#nodes_wrapper').find('.reply a').attr("href", "/nodes/new?parent=" + parentId);
 }
