@@ -55,10 +55,10 @@ class ApplicationController < ActionController::Base
   end
   
   def set_current_tree(tree)
-    session["current_tree"] = tree
+    session["current_tree_id"] = tree.id
   end
   
   def current_tree
-    session["current_tree"]  
+    Tree.find_by_id(session["current_tree_id"])
   end
 end

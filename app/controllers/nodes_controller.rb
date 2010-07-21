@@ -30,7 +30,7 @@ class NodesController < ApplicationController
       node_json = @node.to_hash(current_user).to_json
       Orbited.send_data('huddle', node_json)
       render :text => @node.id
-      #redirect_to tree_path(current_tree.id)
+      #redirect_to current_tree
     else
       render :action => 'new'
     end
