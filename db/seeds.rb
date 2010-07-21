@@ -8,11 +8,13 @@
 
 bob = User.create!(:login => "bob",
                     :email => "bob@xambini.com",
+                    :role => "user",
                     :password => "password",
                     :password_confirmation => "password")
                     
 user = User.create!(:login => "user",
                     :email => "user@xambini.com",
+                    :role => "user",
                     :password => "password",
                     :password_confirmation => "password")
 
