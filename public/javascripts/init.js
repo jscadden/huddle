@@ -97,6 +97,7 @@ function closeAddNodeForm(request) {
 function stompOnMessageFrame(frame) {
 	var nodeJson = eval('(' + frame.body + ')').node;
 	addNode(nodeJson);
+	init_node_list();
 }
 
 function addNode(nodeJson) {
