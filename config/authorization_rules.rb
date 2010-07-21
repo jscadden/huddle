@@ -15,11 +15,10 @@ authorization do
 
     has_permission_on :trees, :to => :manage do
       if_attribute :user => is {user}
-      if_permitted_to :manage, :node
     end
 
-    has_permission_on :trees, :to => :collaborate do
-      if_attribute :rw_invitations => intersects_with {user.invitations_received}
+    has_permission_on :trees, :to => :view do
+      if_attribute :invitations => intersects_with {user.invitations_received}
     end
 
     has_permission_on :nodes, :to => :manage do
@@ -29,11 +28,6 @@ authorization do
                    :tree => {:rw_invitations => 
                               intersects_with {user.invitations_received}}
     end
-
-    has_permission_on :trees, :to => :view do
-      if_attribute :ro_invitations => intersects_with {user.invitations_received}
-    end
-
   end
 
 end

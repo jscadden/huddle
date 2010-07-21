@@ -6,7 +6,7 @@ module NodesHelper
   end
 
   def reply_to_node_link(node)
-    if permitted_to?(:create, node)
+    if permitted_to?(:create, :nodes)
       link_to(image_tag("arrow_reply.png", :title => "Reply"), 
               new_node_path(:parent => node.id), :class => "reply")
     end
