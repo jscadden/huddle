@@ -5,6 +5,7 @@ Feature: Invite a collaborator
 
   Background:
     Given a user exists
+    And no emails have been sent
     And a tree exists
 
   Scenario: User goes to the invite a collaborator form
@@ -28,6 +29,7 @@ Feature: Invite a collaborator
     When I follow an invitation link
     And I fill out the signup form
     And I press "Register"
+    And I follow the verification link in the verification email
     Then I should see a collaboration invitation
     When I press "Accept"
     Then I should see the tree's title

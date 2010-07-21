@@ -8,4 +8,11 @@ class Notifier < ActionMailer::Base
     sent_on Time.now
   end
 
+  def user_email_verification(user)
+    recipients user.email
+    subject "Please verify your account at realtimehuddle.com"
+    from "noreply@realtimehuddle.com"
+    body :user => user
+    sent_on Time.now
+  end
 end

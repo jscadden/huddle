@@ -43,7 +43,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :nodes
   map.resource :user_sessions
   map.resource :account, :controller => "users"
-  map.resources :users
+  map.resources :users, :collection => {:verify => :get}
   map.resources :invitations, :only => [:new, :create, :show, :update]
 
   # See how all your routes lay out with "rake routes"

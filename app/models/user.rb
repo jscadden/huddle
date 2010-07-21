@@ -15,4 +15,23 @@ class User < ActiveRecord::Base
            :through => :invitations_received, 
            :class_name => "Tree", 
            :source => :tree
+
+
+  def verify!
+    reset_perishable_token
+    self.update_attributes!(:verified_at => Time.now)
+  end
+
+  def active?
+    !verified_at.nil?
+  end
+  alias_method :verified?, :active?
+
+  def send_verification_email
+    if verified_at.nil?
+      reset_perishable_token!
+      Notifier.deliver_user_email_verification(self)
+    end
+  end
+
 end

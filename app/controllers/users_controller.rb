@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_filter :require_no_user, :only => [:new, :create]
+  before_filter :require_no_user, :only => [:new, :create, :verify]
   before_filter :require_user, :only => [:show, :edit, :update]
   
   def new
@@ -33,4 +33,18 @@ class UsersController < ApplicationController
       render :action => :edit
     end
   end
+
+  def verify
+    user = User.find_using_perishable_token!(params[:token])
+    user.verify!
+    UserSession.create!(user)
+    flash[:notice] = "Thank you for verifying your registration."
+    redirect_back_or_default root_path
+  rescue StandardError => e
+    logger.error("Error verifying registration #{e}
+#{e.backtrace.join("\n")}")
+    flash[:error] = "Error verifying registration"
+    redirect_to root_path
+  end
+
 end
