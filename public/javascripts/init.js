@@ -135,7 +135,7 @@ function add_node_in_content(nodeJson) {
     var title = $("<span/>").addClass("title").append(nodeJson.title);
     var author = $("<spanr/>").addClass("author")
 	.append(nodeJson.user.login);
-    title_and_author.append(title).append("\n").append(author);
+    title_and_author.append(title).append("\n").append("by\n").append(author);
     var avatar = $("<div/>").addClass("avatar");
     var img = $("<img/>")
 	.attr("src", nodeJson.avatar_url ? nodeJson.avatarUrl : "/images/missing.png")
