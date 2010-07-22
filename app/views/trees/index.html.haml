@@ -11,7 +11,7 @@
     - if tree.public
       = image_tag("world.png", :title => "Public")
 
-- if @invited_trees.count > 0
+- if @invited_trees.size > 0
   %h2 Huddles on which I collaborate
   %ul
     = list_of(@invited_trees) do |tree|
@@ -23,10 +23,10 @@
       - if tree.public
         = image_tag("world.png", :title => "Public")
 
-- if @public_trees.count > 0
+- if @public_trees.size > 0
   %h2 Others' public huddles
   %ul
     = list_of(@public_trees) do |tree|
       = link_to(h(tree.node.title), tree)
-      (Read-Write)
+      (Read-Only)
       = image_tag("world.png", :title => "Public")
