@@ -2,7 +2,6 @@
 .bundle
 capybara-*.html
 config/database.yml
-config/initializers/action_mailer.rb
 config/orbited.cfg
 config/orbited.yml
 db/*.sqlite3
