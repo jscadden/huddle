@@ -1,0 +1,31 @@
+Getting Heroku and Sass to Play Nicely
+
+Problem: Heroku is a (mostly) read-only file system, whereas Sass needs to be able to compile stylesheets.
+
+Solution: Tell Sass to compile its stylesheets into Rails's tmp directory, which happens to be read-write.  While this directory can be emptied without notice, Sass should detect that and recompile on the fly.  This will give a slight delay to users, but is probably worth it, and much easier than trying to wire in Amazon S3 or the like.
+
+Great, how do we do that!
+
+In config/initializers/heroku_sass.rb:
+
+  require "fileutils"
+
+  if !ENV["HEROKU_TYPE"].blank?
+    FileUtils.mkdir_p(Rails.root.join("tmp", "stylesheets", "compiled"))
+    ActionController::Dispatcher.middleware.use(Rack::Static, :root => "tmp/", :urls => ["/stylesheets/compiled"])
+  end
+
+
+In config/compass.rb, replace the css_dir assignment with:
+
+  if !ENV["HEROKU_TYPE"].blank?
+    css_dir = "tmp/stylesheets/compiled"
+  else
+    css_dir = "public/stylesheets/compiled"
+  end
+
+
+This should enable the rack middleware, only when on heroku.
+
+http://blog.siyelo.com/the-easiest-way-to-make-sasscompass-work-on-h
+http://github.com/pedro/hassle/issues/closed#issue/4

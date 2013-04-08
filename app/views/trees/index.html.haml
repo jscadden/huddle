@@ -1,0 +1,32 @@
+%h1 My Huddles
+= link_to("Create new Huddle", new_tree_path)
+
+%ul
+  = list_of(@trees) do |tree|
+    = link_to(h(tree.node.title), tree)
+    - if permitted_to?(:manage, tree)
+      = link_to("Invite A Collaborator", new_invitation_path(:invitation => {:tree_id => tree}))
+    - if permitted_to?(:manage, tree)
+      = link_to(image_tag("page_white_edit.png") + "Edit", edit_tree_path(tree), :title => "Edit Huddle")
+    - if tree.public
+      = image_tag("world.png", :title => "Public")
+
+- if @invited_trees.size > 0
+  %h2 Huddles on which I collaborate
+  %ul
+    = list_of(@invited_trees) do |tree|
+      = link_to(h(tree.node.title), tree)
+      - if permitted_to?(:collaborate, tree)
+        (Read-Write)
+      - else
+        (Read-Only)
+      - if tree.public
+        = image_tag("world.png", :title => "Public")
+
+- if @public_trees.size > 0
+  %h2 Others' public huddles
+  %ul
+    = list_of(@public_trees) do |tree|
+      = link_to(h(tree.node.title), tree)
+      (Read-Only)
+      = image_tag("world.png", :title => "Public")

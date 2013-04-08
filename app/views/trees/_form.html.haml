@@ -1,0 +1,26 @@
+.field
+  = form.check_box(:public)
+  = form.label(:public)
+  If public, a huddle can be viewed, but neither edited nor replied to by the public.
+
+%fieldset
+  %legend Invitations
+  %table(cellpadding="0" cellspacing="0")
+    %thead
+      %tr
+        %th Name
+        %th Status
+        %th Read Only
+        %th Delete
+    %tbody
+      - form.fields_for(:invitations, form.object.invitations) do |ff|
+        %tr
+          %td=h ff.object.recipient_name_or_email
+          %td=h ff.object.status
+          %td= ff.check_box(:read_only)
+          %td= ff.check_box(:_destroy)
+      - if form.object.invitations.count.zero?
+        %td(colspan="4")
+          %em 
+            No invitations found.  
+            #{link_to("Invite a collaborator", new_invitation_path(:invitation => {:tree_id => form.object.id}))}.

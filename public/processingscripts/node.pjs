@@ -1,0 +1,67 @@
+class Node {
+	int x, y;
+	int size;
+	color baseColor, highLightColor;
+	color currentColor;
+	boolean over = false;
+	boolean pressed = false;
+	
+	Node(int ix, int iy, int iSize, color iColor, color iHighlight) {
+		x = ix;  
+		y = iy;  
+		size = isize;  
+		basecolor = icolor;  
+		highlightcolor = ihighlight;  
+		currentcolor = basecolor;
+	}
+	
+	void update() {
+		if(over()) {
+			currentColor = highLightColor;			
+		}
+		else {
+			currentColor = baseColor;
+		}
+	}
+	
+	void display()   
+	{  
+		stroke(255);  
+	    fill(currentcolor);  
+	    ellipse(x, y, size, size);  
+   	}
+	
+	boolean over()   
+	{  
+		if( overCircle(x, y, size) ) {  
+			over = true;  
+	       	return true;  
+     	}   
+	    else {  
+   		over = false;  
+   		return false;  
+	  	}  
+	 }
+	
+	boolean pressed() {
+		if(over) {
+			locked = true;
+			return true;
+		}
+		else {
+			locked = false;
+			return false;
+		}
+	}
+	
+	boolean overCircle(int x, int y, int diameter) {
+		float disX = x - mouseX;
+		float disY = y - mouseY;
+		if(sqrt(sq(disX) + sq(disY)) < diameter/2 ) {  
+			return true;  
+		}   
+		else {  
+			return false;  
+		}
+	}
+}

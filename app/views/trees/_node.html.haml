@@ -1,0 +1,4 @@
+%li
+  = render "/trees/node_details", :node => node
+  - if node.has_children?
+    %ol= render :partial => "/trees/node", :collection => node.children

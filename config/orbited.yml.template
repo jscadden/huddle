@@ -1,0 +1,22 @@
+development: &development
+    host: orbited.huddle.local
+    port: 80
+    protocol: stomp
+    stomp_host: orbited.huddle.local
+    stomp_port: 61613
+    reactor: select
+    morbidq: 1
+    restrict_access: 0
+
+test:
+    <<: *development
+
+production:
+    host: orbited.realtimehuddle.com
+    port: 80
+    protocol: stomp
+    stomp_host: orbited.realtimehuddle.com
+    stomp_port: 61613
+    reactor: select
+    morbidq: 1
+    restrict_access: 0

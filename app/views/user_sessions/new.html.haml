@@ -1,0 +1,9 @@
+%h1 Welcome
+
+- form_for(@user_session) do |f|
+  = f.error_messages
+
+  = render f
+
+  .actions
+    = f.submit("Log in")

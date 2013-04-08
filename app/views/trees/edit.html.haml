@@ -1,0 +1,9 @@
+%h1 Edit Huddle
+
+- form_for(@tree) do |f|
+  = f.error_messages
+
+  = render f
+
+  = f.submit("Save Huddle")
+  = link_to("Cancel", @tree)

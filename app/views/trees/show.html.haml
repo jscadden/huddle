@@ -1,0 +1,22 @@
+#tree_nodes
+  = render "tree_nodes", :node => @tree.node
+
+#nodes_wrapper
+  .reply
+    %a(href="#") Reply
+  #node_contents
+
+#nodes
+  %ol= render "node", :node => @tree.node, :root => true
+
+= content_for(:right_column) do
+  %canvas#huddle_canvas(width="230" height="230")
+  #slider_wrapper
+    %input#slider(type="text" value="1")
+
+  #tree_info
+    - if @tree.public
+      %p
+        = image_tag("world.png")
+        This huddle is public
+      

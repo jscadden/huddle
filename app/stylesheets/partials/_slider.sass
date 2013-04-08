@@ -1,0 +1,23 @@
+@import "slider_base"
+
+// These are customizations made to the widget's defaults, which are kept in
+   slider_base
+#slider_wrapper
+  width: 230px
+
+  .fd-slider
+
+    .fd-slider-inner
+      background: #202020
+      border-color: #000 !important
+      opacity: 0.2
+
+    .fd-slider-bar
+      background: #111
+      border-color: #111 #2c2c2c #2c2c2c #111
+
+  .fd-slider:focus .fd-slider-inner, 
+  .fd-slider-vertical:focus .fd-slider-inner, 
+  .focused .fd-slider-inner
+    background: #202020 !important
+    border-color: #000 !important

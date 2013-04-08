@@ -1,0 +1,16 @@
+.node(class="node_#{node.id} #{node.viewed_by?(current_user) ? "" : "unread"}")
+  .actions
+    = reply_to_node_link(node)
+
+  .title_and_author
+    %span.title=h node.title
+    by 
+    %span.author=h node.user.login
+
+  .avatar
+    = image_tag("/images/missing.png")
+
+  .description=h node.description
+
+- node.children.each do |child|
+  = render "tree_nodes", :node => child

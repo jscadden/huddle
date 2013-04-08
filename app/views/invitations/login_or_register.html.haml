@@ -1,0 +1,24 @@
+%h1 You're Invited To Collaborate
+
+%p
+
+  You're one step away from collaborating with #{h(@invitation.sender_name)}
+  on #{h(@invitation.tree_title)}.  Simply log in, or, if you're new to
+  Realtime Huddle, register—it's quick and free!
+
+#call_to_authenticate
+  .right
+    %h2 Register
+    - form_for(@user) do |f|
+      = render "/users/form", :form => f
+      .actions
+        = f.submit("Register")
+
+  .left
+    %h2 Log In
+    - form_for(@user_session) do |f|
+      = render "/user_sessions/form", :form => f
+      .actions
+        = f.submit("Log in")
+
+%div(style="clear: both")

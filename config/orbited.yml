@@ -1,0 +1,19 @@
+development: &development
+    host: <%= ENV["ORBITED_HOST"] %> # orbited.huddle.entropy
+    port: <%= ENV["ORBITED_PORT"] %> # 8401
+    protocol: stomp
+    stomp_host: <%= ENV["ORBITED_STOMP_HOST"] %> # orbited.huddle.entropy
+    stomp_port: <%= ENV["ORBITED_STOMP_PORT"] %> # 61613
+    reactor: select
+    morbidq: 1
+    restrict_access: 0
+
+production:
+    host: orbited.realtimehuddle.com
+    port: 80
+    protocol: stomp
+    stomp_host: orbited.realtimehuddle.com
+    stomp_port: 61613
+    reactor: epoll
+    morbidq: 1
+    restrict_access: 0

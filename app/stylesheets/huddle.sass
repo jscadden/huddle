@@ -1,0 +1,159 @@
+@import "compass/css3/border-radius"
+@import "compass/css3/gradient"
+@import "compass/css3/box-shadow"
+@import "compass/css3/text-shadow"
+@import "blueprint/reset"
+@import "blueprint"
+@import "blueprint/buttons"
+@import "partials/slider"
+
+
+$default_text_color: #e0e0e0
+
+body 
+  @include blueprint
+  @include blueprint-typography(true)
+  @include blueprint-typography-body(14px)
+
+  background-color: #777
+  overflow: hidden
+
+body thead th
+  background-color: #333
+
+form .field
+  @include prepend-top(1.5em)
+  @include append-bottom(1.5em)
+  
+#container 
+  .error, .warn, .notice
+    color: #0F0F0F
+
+#container
+  //@include showgrid
+  @include container
+  @include box-shadow(rgb(50, 50, 50), -3px, 3px, 10px)
+
+  background-color: #666
+
+  *
+    color: $default_text_color
+
+  #header, #footer
+    @include column(24)
+
+  #header
+    @include prepend-top(1.5em)
+
+  #left_column
+    @include column(6)
+
+  #content
+    @include prepend(1)
+    @include column(15)
+    @include append(1)
+    @include append-bottom(1.5em)
+
+  #right_column
+    @include column(6, true)
+    @include append(1)
+
+    #tree_info
+      @include prepend-top(1.5em)
+
+#footer
+  @include container
+  @include prepend-top(1.5em)
+  color: #ddd
+  font-size: 80%
+  text-align: center
+
+#header
+  text-align: center
+
+  h1
+    font-style: italic
+    text-transform: lowercase
+
+#huddle_canvas
+  @include box-shadow(rgb(50, 50, 50), -2px, 2px)
+
+  height: 230px
+  width: 230px
+
+#nodes_wrapper
+  position: absolute
+  background: #000
+  width: 100%
+  height: 150px
+  opacity: 0.7
+  left: 0px
+  padding: 10px 10px 10px 20px
+
+#nodes
+  display: none
+
+#new_node_wrapper
+  display: table
+  width: 310px
+
+#tree_nodes
+  overflow: auto
+  overflow-x: hidden
+  @include column(15)
+
+  .node
+    @include box-shadow(#444, -2px, 2px, 8px)
+    @include append-bottom(1px)
+    background-color: #ccc
+    border: 1px solid #d7d7d7
+    clear: left
+    color: #222
+    height: 6em
+    padding: 6px
+
+    &.selected
+      background-color: #eee
+      border: 1px solid #ffff77
+
+    &.unread
+      background-color: #eee
+
+    &.hover
+      background-color: #eee
+      border: 1px solid #ff77ff
+
+    .actions
+      @include float(right)
+      visibility: hidden
+
+    &:hover .actions
+      visibility: visible
+
+    .title_and_author
+      color: #222
+
+      .title
+        color: #222
+        text-decoration: underline
+
+      .author
+        color: #222
+
+    .avatar
+      @include float(left)
+      @include span(2)
+      margin-right: 10px
+
+    .description
+      color: #555
+
+
+body form .field
+  br + input[type='text'],
+  br + input[type='password'],
+  br + input[type='radio'],
+  br + input[type='checkbox'],
+  br + select,
+  br + textarea
+    margin-top: 0
